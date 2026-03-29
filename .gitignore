@@ -35,7 +35,6 @@ wheels/
 *~
 
 # 大文件（如果不想提交）
-# 机器学习/data.txt
 
 # 操作系统
 .DS_Store
