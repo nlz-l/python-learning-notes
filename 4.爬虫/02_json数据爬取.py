@@ -14,7 +14,7 @@ response = requests.get(url)
 
 # 保存JSON数据
 json_data = response.json()
-with open("爬虫/github_data.json", "w", encoding="utf-8") as f:
+with open("github_data.json", "w", encoding="utf-8") as f:
     json.dump(json_data, f, ensure_ascii=False, indent=2)
 
 print("\nJSON数据已保存到: github_data.json")
