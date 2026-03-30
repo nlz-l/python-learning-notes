@@ -9,7 +9,7 @@ print("任务2：爬取JSON数据")
 print("=" * 50)
 
 # 使用GitHub API获取JSON数据（无需认证）
-url = "https://api.github.com/users/github"
+url = "https://api.github.com/users/nlz-l"
 response = requests.get(url)
 
 # 保存JSON数据
