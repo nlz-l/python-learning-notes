@@ -37,3 +37,6 @@ wheels/
 # 操作系统
 .DS_Store
 Thumbs.db
+
+# 不上传到 GitHub
+网页展示/
