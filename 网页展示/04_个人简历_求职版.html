@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>刘文博 · 数据分析实习生</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --blue-deep:   #0f2d6e;
+    --blue-mid:    #1a56db;
+    --blue-light:  #dbeafe;
+    --blue-pale:   #eff6ff;
+    --accent:      #f59e0b;
+    --text-main:   #1e293b;
+    --text-sub:    #475569;
+    --text-muted:  #94a3b8;
+    --border:      #e2e8f0;
+    --white:       #ffffff;
+    --left-bg:     #0f2d6e;
+    --left-width:  220px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Noto Sans SC', sans-serif;
+    background: #d1d5db;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 32px 16px;
+  }
+
+  /* ── A4 容器 ── */
+  .resume {
+    width: 794px;
+    min-height: 1123px;
+    background: var(--white);
+    box-shadow: 0 8px 40px rgba(0,0,0,.18);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* ══════════════════ HEADER ══════════════════ */
+  .header {
+    background: var(--blue-deep);
+    padding: 32px 36px 28px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    position: relative;
+    overflow: hidden;
+  }
+  .header::before {
+    content: '';
+    position: absolute;
+    right: -60px; top: -60px;
+    width: 240px; height: 240px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.04);
+  }
+  .header::after {
+    content: '';
+    position: absolute;
+    right: 80px; bottom: -40px;
+    width: 140px; height: 140px;
+    border-radius: 50%;
+    background: rgba(26,86,219,.3);
+  }
+  .header-avatar {
+    width: 80px; height: 80px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.12);
+    border: 2px solid rgba(255,255,255,.3);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 32px; color: rgba(255,255,255,.6);
+    flex-shrink: 0;
+    font-family: 'Noto Serif SC', serif;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -2px;
+  }
+  .header-info { flex: 1; z-index: 1; }
+  .header-name {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 6px;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .header-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--blue-mid);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 4px 14px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+  }
+  .header-title::before { content: '▸'; font-size: 10px; }
+  .header-contact {
+    margin-top: 14px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .contact-item {
+    display: flex; align-items: center; gap: 6px;
+    color: rgba(255,255,255,.75);
+    font-size: 12.5px;
+  }
+  .contact-item .icon {
+    width: 18px; height: 18px;
+    background: rgba(255,255,255,.15);
+    border-radius: 4px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 10px;
+  }
+
+  /* ══════════════════ BODY ══════════════════ */
+  .body {
+    display: flex;
+    flex: 1;
+  }
+
+  /* ── LEFT COLUMN ── */
+  .left {
+    width: var(--left-width);
+    flex-shrink: 0;
+    background: #f8fafc;
+    border-right: 1px solid var(--border);
+    padding: 24px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  /* ── RIGHT COLUMN ── */
+  .right {
+    flex: 1;
+    padding: 24px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  /* ══════════════════ SECTION TITLE ══════════════════ */
+  .section-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  .section-title .bar {
+    width: 3px; height: 16px;
+    background: var(--blue-mid);
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+  .section-title span {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--blue-deep);
+    text-transform: uppercase;
+  }
+
+  /* ── left section title (smaller) ── */
+  .left .section-title span { font-size: 11px; }
+
+  /* ══════════════════ 个人信息 ══════════════════ */
+  .info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px 4px;
+  }
+  .info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .info-item .label {
+    font-size: 10px;
+    color: var(--text-muted);
+    letter-spacing: .5px;
+  }
+  .info-item .value {
+    font-size: 11.5px;
+    color: var(--text-main);
+    font-weight: 500;
+  }
+  /* 电话/邮箱跨两列 */
+  .info-item.full { grid-column: 1 / -1; }
+
+  /* ══════════════════ 技能 BADGE ══════════════════ */
+  .skill-block { margin-bottom: 10px; }
+  .skill-block:last-child { margin-bottom: 0; }
+  .skill-label {
+    font-size: 10.5px;
+    font-weight: 700;
+    color: var(--blue-mid);
+    margin-bottom: 5px;
+    letter-spacing: .3px;
+  }
+  .badge-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .badge {
+    background: var(--blue-pale);
+    color: var(--blue-deep);
+    font-size: 10px;
+    padding: 2px 7px;
+    border-radius: 10px;
+    border: 1px solid #bfdbfe;
+    white-space: nowrap;
+    line-height: 1.6;
+  }
+
+  /* ══════════════════ 荣誉 ══════════════════ */
+  .honor-list { list-style: none; display: flex; flex-direction: column; gap: 7px; }
+  .honor-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    font-size: 11px;
+    color: var(--text-sub);
+    line-height: 1.5;
+  }
+  .honor-list li::before {
+    content: '🏅';
+    font-size: 11px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  /* ══════════════════ 求职意向 ══════════════════ */
+  .intention-row {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .intention-tag {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--blue-pale);
+    border: 1px solid #bfdbfe;
+    border-radius: 8px;
+    padding: 8px 16px;
+  }
+  .intention-tag .it-label {
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+  .intention-tag .it-value {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--blue-mid);
+    letter-spacing: .5px;
+  }
+
+  /* ══════════════════ 教育经历 ══════════════════ */
+  .edu-block {
+    background: var(--blue-pale);
+    border-left: 3px solid var(--blue-mid);
+    border-radius: 0 8px 8px 0;
+    padding: 14px 16px;
+  }
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 4px;
+  }
+  .edu-period {
+    font-size: 12px;
+    color: var(--blue-mid);
+    font-weight: 600;
+    letter-spacing: .5px;
+  }
+  .edu-school {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--blue-deep);
+    letter-spacing: 1px;
+  }
+  .edu-degree {
+    font-size: 12px;
+    color: var(--text-sub);
+    margin-bottom: 10px;
+  }
+  .edu-items { list-style: none; display: flex; flex-direction: column; gap: 5px; }
+  .edu-items li {
+    font-size: 12px;
+    color: var(--text-sub);
+    line-height: 1.6;
+    padding-left: 14px;
+    position: relative;
+  }
+  .edu-items li::before {
+    content: '·';
+    position: absolute;
+    left: 4px;
+    color: var(--blue-mid);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .edu-items li strong { color: var(--text-main); font-weight: 600; }
+
+  /* ══════════════════ 自我评价 ══════════════════ */
+  .eval-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+  .eval-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 12.5px;
+    color: var(--text-sub);
+    line-height: 1.7;
+  }
+  .eval-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--blue-mid);
+    flex-shrink: 0;
+    margin-top: 7px;
+  }
+
+  /* ══════════════════ DIVIDER ══════════════════ */
+  .divider {
+    height: 1px;
+    background: var(--border);
+  }
+
+  /* ══════════════════ PRINT ══════════════════ */
+  @media print {
+    body { background: none; padding: 0; }
+    .resume { box-shadow: none; width: 100%; min-height: auto; }
+    @page { size: A4; margin: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="resume">
+
+  <!-- ══ HEADER ══ -->
+  <div class="header">
+    <div class="header-avatar">博</div>
+    <div class="header-info">
+      <div class="header-name">刘文博</div>
+      <div class="header-title">数据分析实习生</div>
+      <div class="header-contact">
+        <div class="contact-item"><span class="icon">📞</span>183-4354-7829</div>
+        <div class="contact-item"><span class="icon">✉</span>473213284@qq.com</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ BODY ══ -->
+  <div class="body">
+
+    <!-- ── LEFT ── -->
+    <div class="left">
+
+      <!-- 个人信息 -->
+      <div>
+        <div class="section-title"><div class="bar"></div><span>个人信息</span></div>
+        <div class="info-grid">
+          <div class="info-item">
+            <span class="label">性别</span>
+            <span class="value">男</span>
+          </div>
+          <div class="info-item">
+            <span class="label">年龄</span>
+            <span class="value">20 岁</span>
+          </div>
+          <div class="info-item">
+            <span class="label">所在地</span>
+            <span class="value">湖北</span>
+          </div>
+          <div class="info-item">
+            <span class="label">民族</span>
+            <span class="value">汉族</span>
+          </div>
+          <div class="info-item">
+            <span class="label">政治面貌</span>
+            <span class="value">共青团员</span>
+          </div>
+          <div class="info-item">
+            <span class="label">学历</span>
+            <span class="value">本科</span>
+          </div>
+          <div class="info-item">
+            <span class="label">身高</span>
+            <span class="value">178 cm</span>
+          </div>
+          <div class="info-item">
+            <span class="label">体重</span>
+            <span class="value">66 kg</span>
+          </div>
+          <div class="info-item full">
+            <span class="label">毕业时间</span>
+            <span class="value">2027 年 06 月</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- 相关技能 -->
+      <div>
+        <div class="section-title"><div class="bar"></div><span>相关技能</span></div>
+
+        <div class="skill-block">
+          <div class="skill-label">编程语言</div>
+          <div class="badge-group">
+            <span class="badge">Python</span>
+            <span class="badge">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-block">
+          <div class="skill-label">数据处理与分析</div>
+          <div class="badge-group">
+            <span class="badge">Pandas</span>
+            <span class="badge">NumPy</span>
+            <span class="badge">数据清洗</span>
+            <span class="badge">数据转换</span>
+            <span class="badge">特征工程</span>
+          </div>
+        </div>
+
+        <div class="skill-block">
+          <div class="skill-label">数据可视化</div>
+          <div class="badge-group">
+            <span class="badge">Matplotlib</span>
+            <span class="badge">Seaborn</span>
+            <span class="badge">Excel透视表</span>
+          </div>
+        </div>
+
+        <div class="skill-block">
+          <div class="skill-label">机器学习</div>
+          <div class="badge-group">
+            <span class="badge">Scikit-learn</span>
+            <span class="badge">时间序列</span>
+            <span class="badge">聚类分析</span>
+            <span class="badge">分类模型</span>
+          </div>
+        </div>
+
+        <div class="skill-block">
+          <div class="skill-label">数据分析方法</div>
+          <div class="badge-group">
+            <span class="badge">探索性分析</span>
+            <span class="badge">用户分析</span>
+            <span class="badge">聚类分析</span>
+          </div>
+        </div>
+
+        <div class="skill-block">
+          <div class="skill-label">工具应用</div>
+          <div class="badge-group">
+            <span class="badge">Git</span>
+            <span class="badge">Excel高级函数</span>
+            <span class="badge">Linux</span>
+            <span class="badge">Windows</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- 荣誉证书 -->
+      <div>
+        <div class="section-title"><div class="bar"></div><span>荣誉证书</span></div>
+        <ul class="honor-list">
+          <li>全国计算机等级考试二级证书</li>
+          <li>全国计算机等级考试三级证书</li>
+          <li>第十七届"华中杯"大学生数学建模挑战赛三等奖</li>
+          <li>第十八届中国大学生计算机设计大赛中南地区三等奖</li>
+          <li>2024–2025 优秀学生奖学金</li>
+          <li>2024–2025 创新创业奖学金</li>
+        </ul>
+      </div>
+
+    </div><!-- /left -->
+
+    <!-- ── RIGHT ── -->
+    <div class="right">
+
+      <!-- 求职意向 -->
+      <div>
+        <div class="section-title"><div class="bar"></div><span>求职意向</span></div>
+        <div class="intention-row">
+          <div class="intention-tag">
+            <span class="it-label">意向岗位</span>
+            <span class="it-value">数据分析</span>
+          </div>
+          <div class="intention-tag">
+            <span class="it-label">求职类型</span>
+            <span class="it-value">实习</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 教育经历 -->
+      <div>
+        <div class="section-title"><div class="bar"></div><span>教育经历</span></div>
+        <div class="edu-block">
+          <div class="edu-header">
+            <span class="edu-period">2023.09 — 2027.06</span>
+            <span class="edu-school">湖北文理学院</span>
+          </div>
+          <div class="edu-degree">信息与计算科学 &nbsp;|&nbsp; 本科</div>
+          <ul class="edu-items">
+            <li><strong>主修课程：</strong>数据结构与算法、概率论与数理统计、数据库原理、机器学习基础</li>
+            <li><strong>学术竞赛：</strong>作为核心成员参与数学建模竞赛，负责数据处理与模型构建部分</li>
+            <li><strong>奖学金：</strong>优秀学生奖学金、创新创业奖学金</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 自我评价 -->
+      <div>
+        <div class="section-title"><div class="bar"></div><span>自我评价</span></div>
+        <ul class="eval-list">
+          <li><div class="eval-dot"></div>具备扎实的数据分析基础和建模能力，能够独立完成从数据清洗到模型部署的全流程工作</li>
+          <li><div class="eval-dot"></div>乐观积极的工作态度，善于将理论知识与实践结合，为业务决策提供可靠的数据支撑</li>
+          <li><div class="eval-dot"></div>注重细节和代码质量，坚持测试驱动开发，能够认真听取建议并持续改进</li>
+          <li><div class="eval-dot"></div>具备快速学习和适应能力，能在跨学科团队中高效协作，快速理解业务需求并提供数据支持</li>
+        </ul>
+      </div>
+
+    </div><!-- /right -->
+  </div><!-- /body -->
+</div><!-- /resume -->
+</body>
+</html>
