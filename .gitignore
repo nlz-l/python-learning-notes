@@ -33,6 +33,7 @@ wheels/
 *.swp
 *.swo
 .cursor/
+.lingma/
 *~
 # 大文件（如果不想提交）
 # 操作系统
