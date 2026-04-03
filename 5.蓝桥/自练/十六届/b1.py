@@ -11,10 +11,10 @@ def h_1(x: int) -> int:
     else:
         return 2
 
-def h_2(x: int) -> int:
-    if x % 3 == 1:
+def h_2(y: int) -> int:
+    if y % 3 == 1:
         return 2
-    elif x % 3 == 2:
+    elif y % 3 == 2:
         return 10
     else:
         return 7

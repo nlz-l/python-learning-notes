@@ -11,18 +11,6 @@ for d in range(1, n):
             ans = max(ans, dp[i])
 print(ans)
 
-n = int(input())
-h = list(map(int,input().split()))
-ans = 1
-if n <= 1:
-    print(n)
-for d in range(1,n):
-    dp = [1] * n
-    for i in range(d,n):
-        if h[i] >h[i-d]:
-            dp[i] = dp[i - d] + 1
-            ans = max(ans,dp[i])
-print(ans)
 """
 ========================================
   第六题：园艺 算法详解
