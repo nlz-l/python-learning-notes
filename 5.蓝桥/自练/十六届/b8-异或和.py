@@ -19,21 +19,6 @@ for k in range(21):
 
 print(res)
 
-n =int(input())
-a = list(map(int,input().split()))
-res = 0
-for k in range(21):
-    cnt0,cnt1,sum0,sum1,mask = 0,0,0,0,1 << k
-    for i in range(n):
-        if (a[i] >> k) & 1:
-            res += (cnt0 * i - sum0) * mask
-            cnt1 += 1
-            sum1 += i
-        else:
-            res += (cnt1 * i - sum1) * mask
-            cnt0 += 1
-            sum0 += i
-print(res)
 """
 ========================================
   第八题：异或和 算法详解
