@@ -34,3 +34,4 @@ class Student:
     @staticmethod
     def show():
         print('我是静态方法!')
+
