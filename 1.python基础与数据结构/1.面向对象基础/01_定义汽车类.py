@@ -12,6 +12,6 @@ c1.run()
 print('-'*34)
 
 c2 = Car()
-print(f'c1对象：{c2}')
+print(f'c2对象：{c2}')
 c2.run()
 print('-'*34)
