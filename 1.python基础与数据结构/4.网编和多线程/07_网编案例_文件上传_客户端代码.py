@@ -1,9 +1,9 @@
 import socket
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client_socket.connect(('192.168.1.200', 10086))
+client_socket.connect(('172.20.10.2', 10086))
 
-with open('D:/bc/python/python_jg/4.网编和多线程/1.txt','rb') as src_f:
+with open('C:/my_code/learning-notes/1.python基础与数据结构/4.网编和多线程/1.txt','rb') as src_f:
     while True:
         data = src_f.read(8192)
         client_socket.send(data)

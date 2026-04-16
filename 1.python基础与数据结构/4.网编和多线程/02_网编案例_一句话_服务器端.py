@@ -14,7 +14,7 @@ import socket
 # 1.创建服务器端Socket对象
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # 2.绑定IP地址和端口号
-server_socket.bind(('192.168.1.200',10086))
+server_socket.bind(('172.20.10.2',10086))
 # 3.设置最大监听数
 server_socket.listen(5)
 # 4.等待客户端申请建立连接
