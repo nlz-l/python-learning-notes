@@ -10,7 +10,7 @@ class StudentCMS(object):
     def show_view():
         print('*' * 23)
         print('学生管理系统V2.0版')
-        print('\t1.添加学生信息')
+        print('\t1.机器学习概述.添加学生信息')
         print('\t2.修改学生信息')
         print('\t3.删除学生信息')
         print('\t4.查询某个学生信息')
@@ -86,7 +86,7 @@ class StudentCMS(object):
             time.sleep(1)
             StudentCMS.show_view()
             input_num = input('请输入您要操作的编号:')
-            if input_num == '1':
+            if input_num == '1.机器学习概述':
                 #print("添加学生信息\n")
                 self.add_student()
             elif input_num == '2':

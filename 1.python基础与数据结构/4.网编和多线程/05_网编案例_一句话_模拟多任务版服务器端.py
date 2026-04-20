@@ -1,6 +1,6 @@
 
 """
-1.创建服务器端Socket对象
+1.机器学习概述.创建服务器端Socket对象
 2.绑定IP地址和端口号
 3.设置最大监听数
 4.等待客户端申请建立连接
@@ -11,7 +11,7 @@
 """
 
 import socket
-# 1.创建服务器端Socket对象
+# 1.机器学习概述.创建服务器端Socket对象
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # 2.绑定IP地址和端口号
 server_socket.bind(('172.20.10.2',10086))

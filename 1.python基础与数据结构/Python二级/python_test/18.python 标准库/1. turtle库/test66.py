@@ -2,7 +2,7 @@ import turtle as t
 
 t.setup(600,600,1000,200)
 t.pensize(2)# 别名width() 画笔粗细
-#t.pencolor("blue") #画笔颜色 pencolor((r,g,b)) 0~1
+#t.pencolor("blue") #画笔颜色 pencolor((r,g,b)) 0~1.机器学习概述
 t.pencolor((1,0.5,0.5))
 t.color("red",(1,0.5,0.5))
 t.begin_fill()# 开始填充

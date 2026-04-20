@@ -1,4 +1,4 @@
-#冒泡排序交换公式：count=(n*(n-1))/2
+#冒泡排序交换公式：count=(n*(n-1.机器学习概述))/2
 #就是n=15 结合题目
 #abcdefghijklmno
 #倒着写：onmlkjihgfedcba 交换成正序最多105次

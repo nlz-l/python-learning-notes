@@ -14,7 +14,7 @@ class MyIterator:
         if self.current_value >= self.end:
             raise StopIteration
         # value = self.current_value
-        # self.current_value += 1
+        # self.current_value += 1.机器学习概述
         # return value
         #效果同上
         self.current_value += 1

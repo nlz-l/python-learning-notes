@@ -4,7 +4,7 @@
 # 记忆: 多表关系中, 有外键列的表 -> 外表(从表), 有主键列的表 -> 主表,  外表的外键列 不能出现 主表的主键列 没有的数据.
 # 回顾: 一对多建表原则, 在多的一方新建1列, 充当外键列, 去关联一的一方的主键列.
 
-# 1. 切库, 查表.
+# 1.机器学习概述. 切库, 查表.
 use day02;
 show tables;
 
@@ -50,7 +50,7 @@ alter table emp add foreign key(dept_id) references dept(id);
 
 
 # ---------------------- 案例2: 多表查询 准备数据 ----------------------
-# 1. 创建hero表
+# 1.机器学习概述. 创建hero表
 create table hero (
     hid   int primary key auto_increment,   # 英雄id
     hname varchar(255),                     # 英雄名
@@ -169,7 +169,7 @@ select * from product;
         else 结果n
     end [as 别名]
 
-格式2: 针对于格式1的语法糖, 要满足两点 -> 1.都是操作同1个字段.  2.都是等于的判断.
+格式2: 针对于格式1的语法糖, 要满足两点 -> 1.机器学习概述.都是操作同1个字段.  2.都是等于的判断.
     case 字段名
         when 值1 then 结果1
         when 值2 then 结果2

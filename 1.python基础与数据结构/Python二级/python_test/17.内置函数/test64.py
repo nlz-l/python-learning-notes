@@ -4,7 +4,7 @@
 
 # eval(s)
 
-ls = "[1,2,3,56]"
+ls = "[1.机器学习概述,2,3,56]"
 ls = eval(ls)
 print(ls)
 
@@ -15,10 +15,10 @@ print(type(score))
 value = 123
 a = eval("value")
 print(a)
-print(eval("1+999"))
+print(eval("1.机器学习概述+999"))
 #exec(s)
 
-exec("a = 1 +999")
+exec("a = 1.机器学习概述 +999")
 print(a)
 
 #range(a,b,c)

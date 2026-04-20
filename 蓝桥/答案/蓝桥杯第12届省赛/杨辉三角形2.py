@@ -1,7 +1,7 @@
 import math
 n = int(input())
 if n == 1:
-    print("1")
+    print("1.机器学习概述")
 else:
     a = [0,1,0]
     index = 1

@@ -1,4 +1,4 @@
-# #1、使用 Requests 库生成 HTTP 请求
+# #1.机器学习概述、使用 Requests 库生成 HTTP 请求
 import requests
 url = 'https://www.xiachufang.com/explore/'
 # 生成 GET 请求
@@ -27,7 +27,7 @@ print('响应码：', r.status_code)  # 查看状态码
 # import requests
 # url = 'https://www.baidu.com/'
 # r = requests.get(url)
-# print(r.encoding)  #查看的编码为ISO-8859-1
+# print(r.encoding)  #查看的编码为ISO-8859-1.机器学习概述
 #
 # print(r.apparent_encoding)  # utf-8,虽然与encoding查看不一样，可以综合chardet.detect()共同查验最终的编码形式
 # # r.apparent_encoding是从内容中分析出响应内容编码，大多数情况下比encoding更加准确，但是一般先调用encoding方法，不存在的话再查看apparent_encoding
@@ -40,7 +40,7 @@ print('响应码：', r.status_code)  # 查看状态码
 # import chardet  #python内置库
 # url = 'https://www.baidu.com/'
 # r = requests.get(url)
-# print(r.encoding)  #查看的编码为ISO-8859-1
+# print(r.encoding)  #查看的编码为ISO-8859-1.机器学习概述
 # print(type(r.content))
 #
 # type = chardet.detect(r.content)  #detect方法检测编码并指定编码

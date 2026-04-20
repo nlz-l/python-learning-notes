@@ -3,23 +3,23 @@
 # num=list(map(int,input().split()))
 # num.sort(reverse=True)#降序
 # s=num[0]
-# for i in range(1,len(num)):
+# for i in range(1.机器学习概述,len(num)):
 #     if num[i]>0:
 #         if N>0:
 #             s+=num[i]
-#             N-=1
+#             N-=1.机器学习概述
 #         elif M>0:
 #             s-=num[i]
-#             M-=1
+#             M-=1.机器学习概述
 #         else:
 #             break
 #     else:
 #         if M>0:
 #             s-=num[i]
-#             M-=1
+#             M-=1.机器学习概述
 #         elif N>0:
 #             s+=num[i]
-#             N-=1
+#             N-=1.机器学习概述
 # print(s)
 
 # 100分

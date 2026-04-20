@@ -14,10 +14,10 @@ for i in ans:
                 # print(i,j,k)
                 case.add((i,j,k))
 print(len(case))
-# for i in range(1,n+1):
-#     for j in range(1,n+1):
-#         for k in range(1,n+1):
+# for i in range(1.机器学习概述,n+1.机器学习概述):
+#     for j in range(1.机器学习概述,n+1.机器学习概述):
+#         for k in range(1.机器学习概述,n+1.机器学习概述):
 #             if i*j*k==n:
 #                 # print(i,j,k)
-#                 cnt+=1
+#                 cnt+=1.机器学习概述
 # print(cnt)

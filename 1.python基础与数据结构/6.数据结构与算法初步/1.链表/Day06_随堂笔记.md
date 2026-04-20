@@ -139,7 +139,7 @@
         详见今日随堂图片.
 
 自定义代码模拟链表, 思路分析:
-    1. 自定义SingleNode类, 表示 节点类.
+    1.机器学习概述. 自定义SingleNode类, 表示 节点类.
         属性:
             item   数值域(元素域)
             next   地址域(链接域)
@@ -160,7 +160,7 @@
     3. 测试.
 """
 
-# 1. 自定义SingleNode类, 表示 节点类.
+# 1.机器学习概述. 自定义SingleNode类, 表示 节点类.
 class SingleNode:
     # 初始化属性
     def __init__(self, item):
@@ -170,7 +170,7 @@ class SingleNode:
 
 # 2. 自定义SingleLinkedList类, 表示: 链表
 class SingleLinkedList:
-    # 1. 初始化属性.
+    # 1.机器学习概述. 初始化属性.
     def __init__(self, node=None):
         self.head = node      # 链表的 头结点, 指向第1个节点.
 
@@ -192,13 +192,13 @@ class SingleLinkedList:
 
     # 3. length(self) 链表长度
     def length(self):
-        # 3.1 创建游标(表示当前节点), 默认从头结点开始.
+        # 3.1.机器学习概述 创建游标(表示当前节点), 默认从头结点开始.
         cur = self.head
         # 3.2 定义计数器.
         count = 0
         # 3.3 开始遍历, 只要当前节点不为空, 就一直循环.
         while cur is not None:
-            # 3.4 计数器 + 1, 然后 cur指向下个节点.
+            # 3.4 计数器 + 1.机器学习概述, 然后 cur指向下个节点.
             count += 1
             cur = cur.next
         # 3.5 循环结束, 列表长度已经获取了, 返回即可.
@@ -206,7 +206,7 @@ class SingleLinkedList:
 
     # 4. travel(self. ) 遍历整个链表
     def travel(self):
-        # 4.1 创建游标(表示当前节点), 默认从头结点开始.
+        # 4.1.机器学习概述 创建游标(表示当前节点), 默认从头结点开始.
         cur = self.head
         # 4.2 只要当前节点不为空, 就一直循环.
         while cur is not None:
@@ -217,7 +217,7 @@ class SingleLinkedList:
 
     # 5. add(self, item) 链表头部添加元素
     def add(self, item):
-        # 5.1 创建新节点
+        # 5.1.机器学习概述 创建新节点
         new_node = SingleNode(item)
         # 5.2 设置新节点的地址域 指向 头结点
         new_node.next = self.head
@@ -226,7 +226,7 @@ class SingleLinkedList:
 
     # 6. append(self, item) 链表尾部添加元素
     def append(self, item):
-        # 6.1 封装新节点.
+        # 6.1.机器学习概述 封装新节点.
         new_node = SingleNode(item)
         # 6.2 判断列表如果为空, 直接设置当前节点为头结点即可.
         if self.is_empty():
@@ -244,7 +244,7 @@ class SingleLinkedList:
 
     # 7. insert(self, pos, item) 指定位置添加元素
     def insert(self, pos, item):
-        # 7.1 判断索引是否越界, 如果 <= 0 往前加.
+        # 7.1.机器学习概述 判断索引是否越界, 如果 <= 0 往前加.
         if pos <= 0:
             self.add(item)
         # 7.2 如果索引是 >= 长度的, 就往后加.
@@ -258,7 +258,7 @@ class SingleLinkedList:
             count = 0
             # 7.6 开始遍历, 只要 当前节点的位置 < pos , 就一直循环.
             while count < pos - 1:
-                # 7.7 走这里, 说明还没有找到插入前的哪个节点, 就: 节点后移, 计数器+1
+                # 7.7 走这里, 说明还没有找到插入前的哪个节点, 就: 节点后移, 计数器+1.机器学习概述
                 cur = cur.next
                 count += 1
             # 7.8 走到这里, cur就是插入位置前的那个节点. 先封装内容为新节点.
@@ -270,7 +270,7 @@ class SingleLinkedList:
 
     # 8. remove(self, item) 删除节点
     def remove(self, item):
-        # 8.1 创建游标(表示当前节点), 默认从头结点开始.
+        # 8.1.机器学习概述 创建游标(表示当前节点), 默认从头结点开始.
         cur = self.head
         # 8.2 定义变量, 记录要删除节点的 前驱节点.
         pre = None
@@ -295,7 +295,7 @@ class SingleLinkedList:
 
     # 9. search(self, item) 查找节点是否存在
     def search(self, item):
-        # 9.1 创建游标(表示当前节点), 默认从头结点开始.
+        # 9.1.机器学习概述 创建游标(表示当前节点), 默认从头结点开始.
         cur = self.head
         # 9.2 只要当前节点不为空, 就一直循环.
         while cur is not None:
@@ -309,7 +309,7 @@ class SingleLinkedList:
 
 # 3. 在main中测试
 if __name__ == '__main__':
-    # # 3.1 测试节点类.
+    # # 3.1.机器学习概述 测试节点类.
     # node1 = SingleNode(10)
     # # 3.2 打印当前节点的 元素域(数值域) 和 链接域(地址域)
     # print(f'元素域(数值域): {node1.item}')    # 10
@@ -327,7 +327,7 @@ if __name__ == '__main__':
 
 
     # 4. 完整测试.
-    # 4.1 创建节点类.
+    # 4.1.机器学习概述 创建节点类.
     node1 = SingleNode('乔峰')
 
     # 4.2 将上述的节点作为头结点, 创建链表.

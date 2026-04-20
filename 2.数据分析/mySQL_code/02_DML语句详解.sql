@@ -9,7 +9,7 @@ DML 数据操作语言 增删改 (CDU) 表数据
  */
 
 #--------------------------------------------表数据 增------------------------------------
-#1. 切表 查表
+#1.机器学习概述. 切表 查表
 use day01;
 show tables;
 
@@ -33,7 +33,7 @@ select * from category;
   update 数据表名 set 字段名=值... where 条件;
   truncate table 数据表名;
  */
-#1. 查看表中数据
+#1.机器学习概述. 查看表中数据
 select * from category;
 #2. 修改cname = '空调',info='格力',cid=3
 update category set cname='空调',info='格力' where cid=3;
@@ -51,7 +51,7 @@ truncate table category;#全删,重置主键id
 show tables;
 
 select * from category;
-#1. 备份表不存在
+#1.机器学习概述. 备份表不存在
 #格式 create table 备份表名 select * from 原表名 where ...;
 create table category_tmp select * from category;
 select * from category_tmp;

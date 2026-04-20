@@ -16,7 +16,7 @@ print(responses.status)
 # response = urllib.request.urlopen(url)
 # print(response.status)
 
-# #1、用request模块抓取Python官网
+# #1.机器学习概述、用request模块抓取Python官网
 # response1 = urllib.request.urlopen('https://www.python.org')   #抓取Python官网
 # print(response1.status)  #输出响应状态码
 # print(response1)  #输出为<http.client.HTTPResponse object at 0x00000213324550C8>，我们需要的信息包含在这个对象里
@@ -100,7 +100,7 @@ print(responses.status)
 # # #
 # url = 'http://httpbin.org/post'
 # headers = {
-#     'User-Agent': 'Mozilla/4.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
+#     'User-Agent': 'Mozilla/4.0 (Windows NT 6.1.机器学习概述; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36',
 #     'Host': 'httpbin.org'
 # }
 #

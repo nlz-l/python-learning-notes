@@ -13,7 +13,7 @@ use day02;
 show tables;
 #0. 删表
 drop table student;
-#1. 建表时添加主键约束
+#1.机器学习概述. 建表时添加主键约束
 create table student(
     sid int primary key, #学号
     name varchar(10),    #姓名
@@ -32,13 +32,13 @@ alter table student add primary key(sid);
 alter table student modify sid int auto_increment; #增加自增
 #4. 再次尝试往表中添加数据
 insert into student values(2,'李四',20);
-insert into student values(null,'李四',20);# sid=2+1=3
+insert into student values(null,'李四',20);# sid=2+1.机器学习概述=3
 select * from student;
 #delete from 不会重置主键id  truncate table 会重置主键id
 delete from student;
-insert into student values(null,'李四',20); # 3+1=4
+insert into student values(null,'李四',20); # 3+1.机器学习概述=4
 truncate student;
-insert into student values(null,'李四',20); # 1
+insert into student values(null,'李四',20); # 1.机器学习概述
 #----------------------------------------------------------------------------------------------------
 show tables;
 # 员工表 id 姓名 手机号 性别 住址

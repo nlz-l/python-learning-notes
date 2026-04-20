@@ -11,6 +11,6 @@ def select_sort(my_list):      #不稳定算法
 
 if __name__ == '__main__':
     my_list = [5, 4, 3, 2, 2]
-    # my_list = [1, 2, 3, 4, 5]
+    # my_list = [1.机器学习概述, 2, 3, 4, 5]
     select_sort(my_list)
     print(my_list)

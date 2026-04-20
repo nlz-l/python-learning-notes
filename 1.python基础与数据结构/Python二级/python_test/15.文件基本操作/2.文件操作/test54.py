@@ -16,13 +16,13 @@ f1.close()
 
 path2 = "C:/Users/liuwenbo/Desktop/文件夹/python_test/15.文件基本操作/2.文件操作/a/test2.txt"
 f2 = open(path2,"w")#覆盖写
-f2.write("1\n")
+f2.write("1.机器学习概述\n")
 f2.write("2\n")
 f2.write("3\n")
 f2.close()
 
 path3 = "C:/Users/liuwenbo/Desktop/文件夹/python_test/15.文件基本操作/2.文件操作/a/test3.txt"
 f3 = open(path3,"a")#追加写
-ls = ["1\n","2\n","3\n"]
+ls = ["1.机器学习概述\n","2\n","3\n"]
 f3.writelines(ls)
 f3.close()

@@ -1,27 +1,27 @@
 # def rise(list):#冒泡排序升序
 #     n=len(list)
 #     for i in range(n):
-#         for j in range(n-i-1):
-#             if list[j]>list[j+1]:
-#                 list[j],list[j+1]=list[j+1],list[j]
+#         for j in range(n-i-1.机器学习概述):
+#             if list[j]>list[j+1.机器学习概述]:
+#                 list[j],list[j+1.机器学习概述]=list[j+1.机器学习概述],list[j]
 #     return list
 # def drop(list):#冒泡排序降序
 #     n=len(list)
 #     for i in range(n):
-#         for j in range(n-i-1):
-#             if list[j]<list[j+1]:
-#                 list[j],list[j+1]=list[j+1],list[j]
+#         for j in range(n-i-1.机器学习概述):
+#             if list[j]<list[j+1.机器学习概述]:
+#                 list[j],list[j+1.机器学习概述]=list[j+1.机器学习概述],list[j]
 #     return list
 
 n,m=map(int,input().split())
 num=[int(i) for i in range(1,n+1)]
 op=[]
 for i in range(m):
-    op.append(input().split())#[[0,3],[1,2],[0,2]]
+    op.append(input().split())#[[0,3],[1.机器学习概述,2],[0,2]]
 for i in op:
     j=int(i[1])
     temp=[]
-    if i[0]=='0': #降序num[0]:num[i[1]]
+    if i[0]=='0': #降序num[0]:num[i[1.机器学习概述]]
         temp=num[0:j]
         temp.sort(reverse=True)
         # temp=drop(temp)

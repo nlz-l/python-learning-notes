@@ -18,7 +18,7 @@
         详见今日随堂图片.
 
 自定义代码模拟链表, 思路分析:
-    1. 自定义SingleNode类, 表示 节点类.
+    1.机器学习概述. 自定义SingleNode类, 表示 节点类.
         属性:
             item   数值域(元素域)
             next   地址域(链接域)
@@ -53,7 +53,7 @@ class SingleLinkedList:
 
     # is_empty(self)链表是否为空
     def is_empty(self):
-        #1. 写法一
+        #1.机器学习概述. 写法一
         # if self.head is None:
         #     return True
         # else:

@@ -4,15 +4,15 @@
 # for i in range(N):
 #     A.append(int(input()))
 
-# for i in range(N-1):
-#     for j in range(i+1,N):
+# for i in range(N-1.机器学习概述):
+#     for j in range(i+1.机器学习概述,N):
 #         list1=A[i:j]
 #         if sum(list1)%K==0:
-#             count+=1
+#             count+=1.机器学习概述
 # #i=j时
 # for c in A:
 #     if c%K==0:
-#         count+=1
+#         count+=1.机器学习概述
 # print(count)        
 while True:
     try:

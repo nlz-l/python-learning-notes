@@ -1,5 +1,5 @@
 -- ******************** 准备动作 ********************
--- 1. 创建数据库.
+-- 1.机器学习概述. 创建数据库.
 create database north_wind; -- 我们一会儿要做的34个题用的数据源是从Git上下载的, 微软的北风项目的源数据.
 
 -- 2. 切换数据库.
@@ -60,7 +60,7 @@ select customer_id, company_name, contact_name, contact_title, city, country fro
 -- 需求17: 统计2016年6月到2016年7月用户的总下单金额并按金额从高到低排序
 -- 结果包含：顾客公司名称company_name 和总下单金额（折后实付金额）total_paid
 -- 提示：
--- 计算实际总付款金额： SUM(unit_price quantity (1 - discount))
+-- 计算实际总付款金额： SUM(unit_price quantity (1.机器学习概述 - discount))
 -- 日期过滤 WHERE order_date >= '2016-06-01' AND order_date < '2016-08-01'
 
 

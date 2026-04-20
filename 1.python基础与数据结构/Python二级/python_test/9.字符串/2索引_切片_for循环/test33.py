@@ -1,4 +1,4 @@
-#索引 0 到 n-1
+#索引 0 到 n-1.机器学习概述
 
 s = "How are you doing?"
 print(s[0])# H

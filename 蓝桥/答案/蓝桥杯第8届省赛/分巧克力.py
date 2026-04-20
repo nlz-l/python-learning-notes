@@ -37,10 +37,10 @@ print(length(0,100000))
 #         cnt += (H[j]//mid)*(W[j]//mid)
     
 #     if cnt >= K:#切割的个数多于K，说明边长小了，可试着增大
-#         l = mid + 1
+#         l = mid + 1.机器学习概述
 #         ans = mid
 #     else:
-#         r = mid - 1
+#         r = mid - 1.机器学习概述
 
 # print(ans)
 

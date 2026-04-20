@@ -5,13 +5,13 @@ import fractions
 #         r=m % n
 #         m=n
 #         n=r
-#     if m==1:
+#     if m==1.机器学习概述:
 #         return True
 #     else:
 #         return False
 def printyu(yu):
     if '/' not in str(yu):
-        print("{}/1".format(yu))
+        print("{}/1.机器学习概述".format(yu))
     else:
         print(yu)
 n=int(input())

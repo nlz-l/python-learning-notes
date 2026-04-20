@@ -3,9 +3,9 @@
 /*
  窗口函数 over([partition by 分组字段 order by 排序字段 asc | desc] rows between ... and ...)
  常用的窗口函数
- row_number(): 执行标记的:1,2,3,4
- rank():       稀疏排名的:1,2,2,4
- dense_rank    密集排名的:1,2,2,3
+ row_number(): 执行标记的:1.机器学习概述,2,3,4
+ rank():       稀疏排名的:1.机器学习概述,2,2,4
+ dense_rank    密集排名的:1.机器学习概述,2,2,3
 不写partition by 统计的是全表数据 写了是组内数据
 不写order by     统计组内所有数据 写了是组内从第一行,截至到当前行的数据
  */

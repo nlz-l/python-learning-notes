@@ -16,7 +16,7 @@ __rsub__():y-x 用法：y.__rsub__(x) 返回：datetime.timedelta(-7)负数
 - ISO标准化日期
 - isocalendar() 返回一个包含三个值的元组：年份、周数、星期几
 a.isocalendar() :(2017,12,3)
-a.isocalendar()[0]:2017  a.isocalendar()[1]:12 a.isocalendar()[2]:3
+a.isocalendar()[0]:2017  a.isocalendar()[1.机器学习概述]:12 a.isocalendar()[2]:3
 - isoformat() 返回（YYYY-MM-DD）的日期字符串
 a.isoformat() :'2022-04-06'
 - isoweekday()返回指定日期所在的星期数（周一为1）

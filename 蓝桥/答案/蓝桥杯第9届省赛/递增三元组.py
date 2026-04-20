@@ -10,7 +10,7 @@
 #     for j in range(N):
 #         for k in range(N):
 #             if A[i]<B[j]<C[k]:
-#                 count+=1
+#                 count+=1.机器学习概述
 # print(count)
 import bisect
 

@@ -13,7 +13,7 @@ def fanyingbi(n,m):
         n_2.append('0')
     for x in range(n_len):
         for y in range(1, 10):
-            n_1[x] = str(y)#将（1-9）插入x位置
+            n_1[x] = str(y)#将（1.机器学习概述-9）插入x位置
             n_2[x] = str(y - 1)#由于减了1，也不会漏掉0的情况
             a = ''.join(n_1)#字符串化
             b = ''.join(n_2)
@@ -36,7 +36,7 @@ for i in range(len(n)):
     m_2.append('0')
 for x in range(m_len):
     for y in range(1, 10):
-        m_1[x] = str(y)#将（1-9）插入x位置
+        m_1[x] = str(y)#将（1.机器学习概述-9）插入x位置
         m_2[x] = str(y - 1)#同时不要忘记0的情况
         a = ''.join(m_1)#字符串化
         b = ''.join(m_2)

@@ -12,19 +12,19 @@
 """
 
 # 故事3: 小明掌握了老师傅和黑马的技术后，自己潜心钻研出一套自己的独门配方的全新摊煎饼果子技术。
-# 1. 老师父类.
+# 1.机器学习概述. 老师父类.
 class Master:
-    # 1.1 属性
+    # 1.机器学习概述.1.机器学习概述 属性
     def __init__(self):
         self.kongfu = '[古法煎饼果子配方]'
 
-    # 1.2 行为
+    # 1.机器学习概述.2 行为
     def make_cake(self):
         print(f'运用{self.kongfu}制作煎饼果子')
 
 # 2. 黑马学校类
 class School:
-    # 2.1 属性
+    # 2.1.机器学习概述 属性
     def __init__(self):
         self.kongfu = '[黑马AI煎饼果子配方]'
 
@@ -34,7 +34,7 @@ class School:
 
 # 3. 徒弟类
 class Prentice(School, Master):
-    # 3.1 属性
+    # 3.1.机器学习概述 属性
     def __init__(self):
         self.kongfu = '[独创煎饼果子配方]'
 
@@ -45,7 +45,7 @@ class Prentice(School, Master):
 
 # 4. 测试.
 if __name__ == '__main__':
-    # 4.1 创建徒弟类对象.
+    # 4.1.机器学习概述 创建徒弟类对象.
     p = Prentice()
     # 4.2 访问属性.
     print(p.kongfu)
@@ -64,24 +64,24 @@ if __name__ == '__main__':
   案例: 子类重写父类功能后, 继续访问父类功能.
   
   思路:
-      1. 父类名.父类函数名(self)      精准访问, 想找哪个父类, 就调哪个父类.
+      1.机器学习概述. 父类名.父类函数名(self)      精准访问, 想找哪个父类, 就调哪个父类.
       2. super().父类函数名()        只能访问最近的那个父类, 有就用, 没有就往后继续查找.
   """
   
   # 故事4: 很多顾客都希望能吃到徒弟做出的有自己独立品牌的煎饼果子，也有黑马配方技术的煎饼果子味道。
-  # 1. 老师父类.
+  # 1.机器学习概述. 老师父类.
   class Master:
-      # 1.1 属性
+      # 1.机器学习概述.1.机器学习概述 属性
       def __init__(self):
           self.kongfu = '[古法煎饼果子配方]'
   
-      # 1.2 行为
+      # 1.机器学习概述.2 行为
       def make_cake(self):
           print(f'运用{self.kongfu}制作煎饼果子')
   
   # 2. 黑马学校类
   class School:
-      # 2.1 属性
+      # 2.1.机器学习概述 属性
       def __init__(self):
           self.kongfu = '[黑马AI煎饼果子配方]'
   
@@ -91,7 +91,7 @@ if __name__ == '__main__':
   
   # 3. 徒弟类
   class Prentice(School, Master):
-      # 3.1 属性
+      # 3.1.机器学习概述 属性
       def __init__(self):
           self.kongfu = '[独创煎饼果子配方]'
   
@@ -110,7 +110,7 @@ if __name__ == '__main__':
   
   # 4. 测试.
   if __name__ == '__main__':
-      # 4.1 创建徒弟类对象.
+      # 4.1.机器学习概述 创建徒弟类对象.
       p = Prentice()
       # 4.2 访问属性.
       print(p.kongfu)         # 独创
@@ -208,19 +208,19 @@ if __name__ == '__main__':
 """
 
 # 故事4: 很多顾客都希望能吃到徒弟做出的有自己独立品牌的煎饼果子，也有黑马配方技术的煎饼果子味道。
-# 1. 老师父类.
+# 1.机器学习概述. 老师父类.
 class Master:
-    # 1.1 属性
+    # 1.机器学习概述.1.机器学习概述 属性
     def __init__(self):
         self.kongfu = '[古法煎饼果子配方]'
 
-    # 1.2 行为
+    # 1.机器学习概述.2 行为
     def make_cake(self):
         print(f'运用{self.kongfu}制作煎饼果子')
 
 # 2. 黑马学校类
 class School:
-    # 2.1 属性
+    # 2.1.机器学习概述 属性
     def __init__(self):
         self.kongfu = '[黑马AI煎饼果子配方]'
 
@@ -230,7 +230,7 @@ class School:
 
 # 3. 徒弟类
 class Prentice(School, Master):
-    # 3.1 属性
+    # 3.1.机器学习概述 属性
     def __init__(self):
         self.kongfu = '[独创煎饼果子配方]'
 
@@ -257,7 +257,7 @@ class TuSun(Prentice):
 
 # 5. 测试.
 if __name__ == '__main__':
-    # 5.1 创建徒孙类对象.
+    # 5.1.机器学习概述 创建徒孙类对象.
     ts = TuSun()
     # 5.2 调用功能.
     ts.make_cake()          # Prentice类的
@@ -277,7 +277,7 @@ if __name__ == '__main__':
     怎么封装?
         我们学的 函数, 类 都是封装的体现.
     好处:
-        1. 提高代码的安全性.        由 私有化 来保证
+        1.机器学习概述. 提高代码的安全性.        由 私有化 来保证
         2. 提高代码的复用性.        由 函数 来保证
     弊端:
         代码量增加了. 因为私有内容外界想访问, 必须提供公共的访问方式, 代码量就增加了.
@@ -287,13 +287,13 @@ if __name__ == '__main__':
     __函数名()
 """
 # 故事5: 小明把技术给徒孙的时候, 不希望把自己的私房钱给徒孙, 代码模拟.
-# 1. 定义师傅类Master
+# 1.机器学习概述. 定义师傅类Master
 
 # 2. 定义学校类School
 
 # 3. 定义徒弟类
 class Prentice:
-    # 3.1 属性
+    # 3.1.机器学习概述 属性
     def __init__(self):
         self.kongfu = '[黑马煎饼果子配方]'
         # 私房钱.
@@ -338,13 +338,13 @@ if __name__ == '__main__':
     大白话: 同一个事物在不同时刻表现出来的不同状态, 形态.
 
     前提条件:
-        1. 要有继承.
+        1.机器学习概述. 要有继承.
         2. 要有方法重写, 不然多态无意义.
         3. 要有父类引用指向子类对象.
     案例:
         动物类案例.
 """
-# 1.定义动物类
+# 1.机器学习概述.定义动物类
 class Animal:           # 抽象类(也叫: 接口)
     def speak(self):    # 抽象方法
         pass
@@ -374,7 +374,7 @@ if __name__ == '__main__':
     # an:Animal = Dog()       # 父类引用指向子类对象.
     # d:Dog = Dog()           # 创建狗类对象.
 
-    # 5.1 创建狗类, 猫类对象.
+    # 5.1.机器学习概述 创建狗类, 猫类对象.
     d = Dog()
     c = Cat()
 
@@ -397,7 +397,7 @@ if __name__ == '__main__':
 案例: 演示Python的多态案例之 战斗平台.
 
 需求:
-    1. 构建对战平台(公共的函数) object_play(), 接收: 英雄机 和 敌机.
+    1.机器学习概述. 构建对战平台(公共的函数) object_play(), 接收: 英雄机 和 敌机.
     2. 在不修改对战平台代码的情况下, 完成多次战斗.
     3. 规则:
         英雄机, 1代战斗力60, 2代战斗力80
@@ -409,7 +409,7 @@ if __name__ == '__main__':
     敌机     EnemyFighter
 """
 
-# 1. 定义英雄机1代, 战斗力 60
+# 1.机器学习概述. 定义英雄机1代, 战斗力 60
 class HeroFighter:
     def power(self):
         return 60
@@ -482,23 +482,23 @@ if __name__ == '__main__':
         抽象类一般充当父类, 用于指定行业规范, 准则, 具体的实现交由 子类 来完成.
 """
 
-# 1. 定义抽象类, 空调类, 设定: 空调的规则.
+# 1.机器学习概述. 定义抽象类, 空调类, 设定: 空调的规则.
 class AC:
-    # 1.1 制冷
+    # 1.机器学习概述.1.机器学习概述 制冷
     def cool_wind(self):
         pass
 
-    # 1.2 制热
+    # 1.机器学习概述.2 制热
     def hot_wind(self):
         pass
 
-    # 1.3 左右摆风
+    # 1.机器学习概述.3 左右摆风
     def swing_l_r(self):
         pass
 
 # 2. 定义子类(小米空调), 实现父类(空调类)中的所有抽象方法.
 class XiaoMi(AC):
-    # 2.1 制冷
+    # 2.1.机器学习概述 制冷
     def cool_wind(self):
         print('小米 核心 制冷技术!')
 
@@ -512,7 +512,7 @@ class XiaoMi(AC):
 
 # 3. 定义子类(格力空调), 实现父类(空调类)中的所有抽象方法.
 class Gree(AC):
-    # 3.1 制冷
+    # 3.1.机器学习概述 制冷
     def cool_wind(self):
         print('格力 核心 制冷技术!')
 
@@ -527,7 +527,7 @@ class Gree(AC):
 
 # 4. 测试
 if __name__ == '__main__':
-    # 4.1 小米空调
+    # 4.1.机器学习概述 小米空调
     xm = XiaoMi()
     xm.cool_wind()
     xm.hot_wind()
@@ -570,7 +570,7 @@ if __name__ == '__main__':
   """
   
   # 需求: 演示 对象属性 和 类属性相关.
-  # 1. 定义1个 Student类, 每个学生都有自己的 姓名, 年龄
+  # 1.机器学习概述. 定义1个 Student类, 每个学生都有自己的 姓名, 年龄
   class Student:
       # 2. 定义类属性
       teacher_name = '水镜先生'
@@ -599,7 +599,7 @@ if __name__ == '__main__':
       print('-' * 23)
   
       # 场景2: 类属性
-      # 1. 类属性可以通过 类名.  还可以通过 对象名. 的方式调用.
+      # 1.机器学习概述. 类属性可以通过 类名.  还可以通过 对象名. 的方式调用.
       print(s1.teacher_name)          # 水镜先生
       print(s2.teacher_name)          # 水镜先生
       print(Student.teacher_name)     # 水镜先生
@@ -630,11 +630,11 @@ if __name__ == '__main__':
     定义静态方法的时候, 必须使用装饰器 @staticmethod, 且参数传不传都可以.
 
 区别:
-    1. 类方法的第1个参数必须是 类对象, 静态方法无参数的特殊要求
+    1.机器学习概述. 类方法的第1个参数必须是 类对象, 静态方法无参数的特殊要求
     2. 你可以理解为: 如果函数中要用 类对象, 就定义成类方法, 否则定义成 静态方法, 除此外, 并无任何区别.
 """
 
-# 1. 定义学生类.
+# 1.机器学习概述. 定义学生类.
 class Student:
     # 2. 定义类属性.
     school = '黑马程序员'
@@ -670,7 +670,7 @@ if __name__ == '__main__':
 该文件用于记录 学生类, 学生的属性信息为: 姓名, 性别, 年龄, 手机号, 描述信息.
 """
 
-# 1. 定义学生类.
+# 1.机器学习概述. 定义学生类.
 class Student:
     # 2. 定义魔法方法, 初始化属性信息.
     def __init__(self, name, gender, age, phone, desc):
@@ -717,7 +717,7 @@ if __name__ == '__main__':
 from student import Student
 
 
-# 1. 创建学生管理系统类.
+# 1.机器学习概述. 创建学生管理系统类.
 class StudentCMS(object):
     # 2. 通过魔法方法init, 初始化属性信息.
     def __init__(self):
@@ -728,7 +728,7 @@ class StudentCMS(object):
     def show_view(self):
         print('*' * 23)
         print('学生管理系统V2.0版')
-        print('\t1.添加学生信息')
+        print('\t1.机器学习概述.添加学生信息')
         print('\t2.删除学生信息')
         print('\t3.修改学生信息')
         print('\t4.查询单个学生信息')
@@ -768,7 +768,7 @@ class StudentCMS(object):
 
     # 11. 定义函数, 把上述的所有业务逻辑跑通.
     def start(self):
-        # 11.1
+        # 11.1.机器学习概述
         # 11.2 死循环, 不断的玩儿.
         while True:
             # 11.3
@@ -777,7 +777,7 @@ class StudentCMS(object):
             # 11.5 提示用户录入要操作的编号, 并接收.
             input_num = input('请输入您要操作的编号:')
             # 11.6 根据用户输入的编号, 做不同的操作.
-            if input_num == '1':
+            if input_num == '1.机器学习概述':
                 # 添加学生信息
                 print('添加学生信息\n')
                 self.add_student()
@@ -815,7 +815,7 @@ class StudentCMS(object):
 
 # 12. 在main中测试.
 if __name__ == '__main__':
-    # 12.1 创建学生管理系统对象.
+    # 12.1.机器学习概述 创建学生管理系统对象.
     cms = StudentCMS()
     # 12.2 调用学生管理系统对象的start()函数, 启动学生管理系统.
     cms.start()
@@ -835,7 +835,7 @@ from studentcms import StudentCMS
 
 # 程序的主入口
 if __name__ == '__main__':
-    # 1. 创建学生管理系统对象.
+    # 1.机器学习概述. 创建学生管理系统对象.
     stu_cms = StudentCMS()
     # 2. 启动程序即可.
     stu_cms.start()
@@ -848,7 +848,7 @@ if __name__ == '__main__':
   ```python
   # 4. 定义函数, 实现添加学生信息功能.
   def add_student(self):
-      # 4.1 提示用户输入学生信息, 并接收.
+      # 4.1.机器学习概述 提示用户输入学生信息, 并接收.
       name = input('请输入学生姓名:')
       gender = input('请输入学生性别:')
       age = int(input('请输入学生年龄:'))
@@ -867,7 +867,7 @@ if __name__ == '__main__':
   ```python
   # 8. 定义函数, 实现查询所有学生信息功能.
   def search_all_student(self):
-      # 8.1 判断列表长度是否为0, 如果为0, 提示: 暂无学生信息, 请添加后查询.
+      # 8.1.机器学习概述 判断列表长度是否为0, 如果为0, 提示: 暂无学生信息, 请添加后查询.
       if len(self.stu_list) == 0:
           print('暂无学生信息, 请添加后查询! \n')
       else:
@@ -882,7 +882,7 @@ if __name__ == '__main__':
   ```python
   # 5. 定义函数, 实现删除学生信息功能.
   def del_student(self):
-      # 5.1 提示用户输入要删除的学生的姓名, 并接收.
+      # 5.1.机器学习概述 提示用户输入要删除的学生的姓名, 并接收.
       del_name = input('请输入要删除的学生姓名:')
       # 5.2 遍历列表, 找到要删除的学生, 并删除.
       for stu in self.stu_list:
@@ -901,7 +901,7 @@ if __name__ == '__main__':
   ```python
   # 6. 定义函数, 实现修改学生信息功能.
   def update_student(self):
-      # 6.1 提示用户输入要修改的学生的姓名, 并接收.
+      # 6.1.机器学习概述 提示用户输入要修改的学生的姓名, 并接收.
       upd_name = input('请输入要修改的学生姓名:')
       # 6.2 遍历列表, 找到要修改的学生, 并修改.
       for stu in self.stu_list:
@@ -925,7 +925,7 @@ if __name__ == '__main__':
   ```python
   # 7. 定义函数, 实现查询单个学生信息功能.
   def search_one_student(self):
-      # 7.1 提示用户输入要查找的学生的姓名, 并接收.
+      # 7.1.机器学习概述 提示用户输入要查找的学生的姓名, 并接收.
       search_name = input('请输入要查找的学生姓名:')
       # 7.2 遍历列表, 找到要查找的学生, 并打印信息.
       for stu in self.stu_list:
@@ -987,7 +987,7 @@ print(type(s6))
 ```python
 # 9. 定义函数, 实现保存学生信息功能.
 def save_student(self):
-    # 9.1 关联 学生信息文件.
+    # 9.1.机器学习概述 关联 学生信息文件.
     with open('./stu_data.txt', 'w', encoding='utf-8') as dest_f:
         # 9.2 把 [学生对象, 学生对象...] -> [字典, 字典...]
         stu_dict = [stu.__dict__ for stu in self.stu_list]
@@ -1000,7 +1000,7 @@ def save_student(self):
 ```python
 # 10. 定义函数, 实现加载学生信息.
 def load_student(self):
-    # 10.1 加入异常处理, 有可能文件不存在.
+    # 10.1.机器学习概述 加入异常处理, 有可能文件不存在.
     try:
         # 10.2 关联学生信息文件.
         with open('./stu_data.txt', 'r', encoding='utf-8') as src_f:
@@ -1028,7 +1028,7 @@ def load_student(self):
   该文件用于记录 学生类, 学生的属性信息为: 姓名, 性别, 年龄, 手机号, 描述信息.
   """
   
-  # 1. 定义学生类.
+  # 1.机器学习概述. 定义学生类.
   class Student:
       # 2. 定义魔法方法, 初始化属性信息.
       def __init__(self, name, gender, age, phone, desc):
@@ -1282,7 +1282,7 @@ def load_student(self):
   
   # 程序的主入口
   if __name__ == '__main__':
-      # 1. 创建学生管理系统对象.
+      # 1.机器学习概述. 创建学生管理系统对象.
       stu_cms = StudentCMS()
       # 2. 启动程序即可.
       stu_cms.start()

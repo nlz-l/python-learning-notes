@@ -22,15 +22,15 @@ import re
 
 
 # 需求1: 校验html的单级标签.
-# 1.定义变量, 记录: html标签.
-# html_s = '<html>我是html页面</html>'        # 字母数: 1 ~ 4
+# 1.机器学习概述.定义变量, 记录: html标签.
+# html_s = '<html>我是html页面</html>'        # 字母数: 1.机器学习概述 ~ 4
 
 # 2.匹配校验.
 # 写法1: 重新copy一份.
-# result = re.match('<[a-zA-Z]{1,4}>.*</[a-zA-Z]{1,4}>', html_s)
+# result = re.match('<[a-zA-Z]{1.机器学习概述,4}>.*</[a-zA-Z]{1.机器学习概述,4}>', html_s)
 
 # 写法2: 引入分组的概念.
-# result = re.match(r'<([a-zA-Z]{1,4})>.*</\1>', html_s)
+# result = re.match(r'<([a-zA-Z]{1.机器学习概述,4})>.*</\1.机器学习概述>', html_s)
 
 # 3.打印结果.
 # if result:
@@ -40,18 +40,18 @@ import re
 
 
 # 需求2: 校验html的单级标签.
-# 1.定义变量, 记录: html标签.
-html_s = '<html><h1>我是html页面</h1></html>'   # 字母数: 1 ~ 4,  标题标签1 ~ 6
+# 1.机器学习概述.定义变量, 记录: html标签.
+html_s = '<html><h1>我是html页面</h1></html>'   # 字母数: 1.机器学习概述 ~ 4,  标题标签1 ~ 6
 
 # 2.匹配校验.
 # 写法1: 重新copy一份.
-# result = re.match(r'<[a-zA-Z]{1,4}><h[1-6]>.*</h[1-6]></[a-zA-Z]{1,4}>', html_s)
+# result = re.match(r'<[a-zA-Z]{1.机器学习概述,4}><h[1.机器学习概述-6]>.*</h[1.机器学习概述-6]></[a-zA-Z]{1.机器学习概述,4}>', html_s)
 
 # 写法2: 引入分组的概念.
-# result = re.match(r'<([a-zA-Z]{1,4})><(h[1-6])>.*</\2></\1>', html_s)
+# result = re.match(r'<([a-zA-Z]{1.机器学习概述,4})><(h[1.机器学习概述-6])>.*</\2></\1.机器学习概述>', html_s)
 
 # 写法3: 给分组起名.
-result = re.match(r'<(?P<A>[a-zA-Z]{1,4})><(?P<B>h[1-6])>.*</(?P=B)></(?P=A)>', html_s)
+result = re.match(r'<(?P<A>[a-zA-Z]{1.机器学习概述,4})><(?P<B>h[1.机器学习概述-6])>.*</(?P=B)></(?P=A)>', html_s)
 
 # 3.打印结果.
 if result:

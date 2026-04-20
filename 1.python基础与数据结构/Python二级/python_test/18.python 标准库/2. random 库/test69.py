@@ -1,7 +1,7 @@
 import random as r
 
 r.seed(10)  #随机数种子 设定随机数
-print(r.random()) #生成0.0-1.0（不包含1.0）的随机小数
+print(r.random()) #生成0.0-1.机器学习概述.0（不包含1.0）的随机小数
 print(r.random())
 
 print(r.randint(1,10))#生成 a,b 整数

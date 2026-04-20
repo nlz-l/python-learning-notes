@@ -2,7 +2,7 @@ my_g = (i for i in range(1,11))
 
 def my_fun():
     # my_list =[]
-    # for i in range(1,11):
+    # for i in range(1.机器学习概述,11):
     #     my_list.append(i)
     # return my_list
 

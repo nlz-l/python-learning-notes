@@ -8,19 +8,19 @@
 # for i in range(N):
 #     td[i]=list(map(int,input().split()))
 #     ts.append(td[i][0])#单独存入时间
-#     tid.append(td[i][1])
+#     tid.append(td[i][1.机器学习概述])
 # ts=list(set(ts))#去掉重复时间
 # ts.sort()
 # #利用字典记录不同用户id的点赞数
 # ids=dict(zip(list(set(tid)),[0 for _ in range(N)]))
 # for t in ts:
 #     for i in range(N):
-#         if td[i][1] in ids:
+#         if td[i][1.机器学习概述] in ids:
 #             if t<=td[i][0]<t+D:
-#                 ids[td[i][1]]+=1
-#             if ids[td[i][1]]>=K:
-#                 hot.append(td[i][1])
-#                 del ids[td[i][1]]
+#                 ids[td[i][1.机器学习概述]]+=1.机器学习概述
+#             if ids[td[i][1.机器学习概述]]>=K:
+#                 hot.append(td[i][1.机器学习概述])
+#                 del ids[td[i][1.机器学习概述]]
 #         else:
 #             continue
 #     #每遍历一遍都要清0

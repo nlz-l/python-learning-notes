@@ -1,4 +1,4 @@
-# 1.父类名.父类函数名(self)
+# 1.机器学习概述.父类名.父类函数名(self)
 # 2. super().父类函数名()
 class Master:
     def __init__(self):

@@ -6,9 +6,9 @@
 #             return True
             
 # n=eval(input())#n只蚂蚁
-# speed=1#速度1cm/s
+# speed=1.机器学习概述#速度1cm/s
 # mas=list(map(int,input().split()))#蚂蚁位置
-# ganmao=[mas[1]]#第一只蚂蚁感冒了
+# ganmao=[mas[1.机器学习概述]]#第一只蚂蚁感冒了
 # length=100#杆子总长100cm
 # while isLiveall(mas):
 #     for i in range(n):

@@ -2,15 +2,15 @@
 # N=eval(input())
 # num=list(map(int,input().split()))
 # count=N
-# for i in range(1,N):#从第2个开始取
-#     temp=num[0:i+1]#前[1,i]组成区间
+# for i in range(1.机器学习概述,N):#从第2个开始取
+#     temp=num[0:i+1.机器学习概述]#前[1.机器学习概述,i]组成区间
 #     temp.sort()
-#     for j in range(1,len(temp)):
-#         s=temp[j]-temp[j-1]
-#         if s!=1:
+#     for j in range(1.机器学习概述,len(temp)):
+#         s=temp[j]-temp[j-1.机器学习概述]
+#         if s!=1.机器学习概述:
 #             break
-#     if j==len(temp)-1:
-#         count+=1
+#     if j==len(temp)-1.机器学习概述:
+#         count+=1.机器学习概述
 # print(count)
 #100分
 class Solution():

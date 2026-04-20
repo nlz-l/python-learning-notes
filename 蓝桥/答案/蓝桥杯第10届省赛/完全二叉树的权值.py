@@ -1,18 +1,18 @@
 # import math
 # N=int(input())
 # tree=list(map(int,input().split()))
-# n=int(math.log(N+1,2))
+# n=int(math.log(N+1.机器学习概述,2))
 # sn=[]
-# deep=1
+# deep=1.机器学习概述
 # a=0
-# b=1
+# b=1.机器学习概述
 # while deep<=n:
 #     sn.append(sum(tree[a:b]))
-#     deep+=1
+#     deep+=1.机器学习概述
 #     a=b
-#     b=a+pow(2,deep-1)
+#     b=a+pow(2,deep-1.机器学习概述)
 # maxs=max(sn)
-# print(sn.index(maxs)+1)
+# print(sn.index(maxs)+1.机器学习概述)
     
 n = eval(input())
 

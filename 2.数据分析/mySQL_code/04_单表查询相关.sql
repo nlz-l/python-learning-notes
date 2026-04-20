@@ -17,7 +17,7 @@
  */
 #准备数据
 use day02;
-# 1. 创建商品表.
+# 1.机器学习概述. 创建商品表.
 create table product
 (
     pid         int primary key auto_increment, # 商品id, 主键
@@ -41,7 +41,7 @@ INSERT INTO product(pid,pname,price,category_id) VALUES(null,'香飘飘奶茶',1
 INSERT INTO product(pid,pname,price,category_id) VALUES(null,'海澜之家',1,'c002');
 desc product;
 #----------------------------------------------简单查询---------------------------------------------
-#1. 查询表中所有数据
+#1.机器学习概述. 查询表中所有数据
 #格式:select 列名1, 列名2... from 数据表名;
 select pid, pname, price, category_id from product;
 #同 select * from product;
@@ -61,7 +61,7 @@ select pname,price+10 as price from product;
   in (值1 值2 值3)      满足一个值即可
   is null 或 is not null
  */
-#1. 演示比较运算符
+#1.机器学习概述. 演示比较运算符
 select * from product where price>500;
 select * from product where category_id != 'c001';
 select * from product where category_id <> 'c001'; #同上
@@ -94,12 +94,12 @@ select * from product order by price desc,category_id desc;
         max()       求最大值
         min()       求最小值
         avg()       求平均值
-面试题: count(*), count(1), count(列)的区别是什么?
+面试题: count(*), count(1.机器学习概述), count(列)的区别是什么?
     区别1: 是否统计空值
         count(列): 只统计该列的非空值.
-        count(1), count(*): 统计所有数据, 包括空值.
+        count(1.机器学习概述), count(*): 统计所有数据, 包括空值.
     区别2: 效率问题.
-        count(主键列) > count(1) > count(*) > count(普通列)
+        count(主键列) > count(1.机器学习概述) > count(*) > count(普通列)
 */
 select * from product;
 select count(*) from product; #13
@@ -122,7 +122,7 @@ from
     格式:
         select 列1, 列2... from 数据表名 where 组前筛选 group by 分组字段 having 组后筛选;
     细节:
-        1. 分组查询 一般要结合 聚合函数一起使用, 且根据谁分组, 就根据谁查询.
+        1.机器学习概述. 分组查询 一般要结合 聚合函数一起使用, 且根据谁分组, 就根据谁查询.
         2. 组前筛选用where, 组后筛选用having.
         3. 面试题: where 和 having的区别是什么?
             where: 组前筛选, 后边不能跟聚合函数.
@@ -151,17 +151,17 @@ select category_id,price from product group by category_id,price;
     格式:
         limit 起始索引, 数据条数;
     细节:
-        1. 表中每条数据都有自己的索引, 且索引是从0开始的.
+        1.机器学习概述. 表中每条数据都有自己的索引, 且索引是从0开始的.
         2. 如果是从索引0开始获取数据的, 则索引0可以省略不写.
     要学好分页, 掌握如下的几个参数计算规则即可:
         数据总条数:      count() 函数
         每页的数据条数:   产品经理, 项目经理, 你...
-        每页的起始索引:   (当前的页数 - 1) * 每页的数据条数
-        总页数:          (数据总条数 + 每页的数据条数 - 1) // 每页的数据条数
-                        (13 + 5 - 1) // 5 = 17 // 5 = 3页
-                        (14 + 5 - 1) // 5 = 18 // 5 = 3页
-                        (15 + 5 - 1) // 5 = 19 // 5 = 3页
-                        (16 + 5 - 1) // 5 = 20 // 5 = 4页
+        每页的起始索引:   (当前的页数 - 1.机器学习概述) * 每页的数据条数
+        总页数:          (数据总条数 + 每页的数据条数 - 1.机器学习概述) // 每页的数据条数
+                        (13 + 5 - 1.机器学习概述) // 5 = 17 // 5 = 3页
+                        (14 + 5 - 1.机器学习概述) // 5 = 18 // 5 = 3页
+                        (15 + 5 - 1.机器学习概述) // 5 = 19 // 5 = 3页
+                        (16 + 5 - 1.机器学习概述) // 5 = 20 // 5 = 4页
 */
 select * from product;
 select * from product limit 0,3; #第一页

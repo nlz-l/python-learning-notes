@@ -4,7 +4,7 @@ ls = [123,123,3.14,"abc","abc"]
 print(ls)
 print(type(ls)) #<class 'list'>
 
-#列表索引 0 - n-1
+#列表索引 0 - n-1.机器学习概述
 
 print(ls[0:1])
 print(ls[::-1])

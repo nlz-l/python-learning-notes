@@ -6,7 +6,7 @@ if x==y and x<0 and y<0:
 n=max(abs(x),abs(y))#确定边长
 #左边
 if x==-n:
-    dis=n+y+4*n*(n-1)#前n-1个正方形边长之和：4*n*(n-1)
+    dis=n+y+4*n*(n-1)#前n-1个正方形边长之和：4*n*(n-1.机器学习概述)
 #上边
 elif y==n:
     dis=3*n+x+4*n*(n-1)
