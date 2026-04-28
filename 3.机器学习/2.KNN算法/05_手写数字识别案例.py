@@ -82,7 +82,7 @@ def train_model():
 
     # 5. 保存模型.
     # 参1: 模型对象.    参2: 模型保存的路径.
-    joblib.dump(estimator, './model/手写数字识别.pkl')        # pickle文件: Python(Pandas)独有的文件类型.
+    joblib.dump(estimator, './my_model/手写数字识别.pkl')        # pickle文件: Python(Pandas)独有的文件类型.
     print('模型保存成功!')
 
 # 3. 定义函数, 测试模型.
@@ -95,7 +95,7 @@ def use_model():
     # plt.show()
 
     # 3. 加载模型.
-    estimator = joblib.load('./model/手写数字识别.pkl')
+    estimator = joblib.load('./my_model/手写数字识别.pkl')
 
     # 4. 模型预测.
     # 4.1 查看 数据集转换.
@@ -125,4 +125,4 @@ if __name__ == '__main__':
     # train_model()
 
     # 模型预测(使用模型)
-    use_model()
+     use_model()
