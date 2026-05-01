@@ -2,7 +2,7 @@
 案例:
     演示AdaBoost算法 之  葡萄酒案例.
 
-AdaBoost算法介绍:
+AdaBoost算法(自适应提升树)介绍:
     它属于 Boosting思想, 即: 串行执行, 每次使用全部样本, 最后 加权投票.
     原理:
         1. 使用全部样本, 通过决策树模型(第1个弱分类器)进行训练, 获取结果.
@@ -69,8 +69,8 @@ print(f'单一决策树预测正确率: {accuracy_score(y_test, y_pre1)}')      
 
 # 场景2: AdaBoost -> 集成学习, CART树, 200棵
 # 4.1 创建模型对象
-# 参1: 弱分类器(决策树对象), 参2: 弱分类器个数, 参3: 学习率, 参4: 集成算法
-estimator2 = AdaBoostClassifier(estimator=estimator1, n_estimators=200, learning_rate=0.1, algorithm='SAMME')
+# 参1: 弱分类器(决策树对象), 参2: 弱分类器个数, 参3: 学习率
+estimator2 = AdaBoostClassifier(estimator=estimator1, n_estimators=200, learning_rate=0.1)
 # 4.2 训练模型
 estimator2.fit(x_train, y_train)
 # 4.3 模型预测

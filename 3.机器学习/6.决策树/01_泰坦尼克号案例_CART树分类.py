@@ -28,7 +28,7 @@ y = data['Survived']
 
 # 解决方案, copy()数据之后再改.
 x = x.copy()                                          # 拷贝数据, 不写也行.
-x['Age'] = x['Age'].fillna(x['Age'].mean())           # 会报警告, 因为是直接修改源数据的.
+x['Age'] = x['Age'].fillna(x['Age'].mean())
 
 # 2.3 查看处理后的数据集.
 # x.info()

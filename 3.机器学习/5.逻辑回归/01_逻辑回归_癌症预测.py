@@ -7,7 +7,7 @@
         属于有监督学习, 即: 有特征, 有标签, 且表示是离散的.
         主要适用于: 二分类.
     原理:
-        把线性回归处理后的预测值 -> 通过 Sigmoid激活函数, 映射到[0, 1] 概率 -> 基于自定义的阈值, 结合概率来 分类.
+        把线性回归处理后的预测值 -> 通过 Sigmoid激活函数, 映射到(0, 1) 概率 -> 基于自定义的阈值, 结合概率来 分类.
     损失函数:
         极大似然估计函数的 负数形式.
 
@@ -27,6 +27,7 @@ from sklearn.linear_model import LogisticRegression     # 逻辑回归模型
 from sklearn.preprocessing import StandardScaler        # 标准化
 from sklearn.model_selection import train_test_split    # 训练集和测试集分割
 from sklearn.metrics import accuracy_score              # 模型评估
+from tensorflow.python.ops.metrics_impl import precision
 
 # 1. 加载数据.
 data = pd.read_csv('./data/breast-cancer-wisconsin.csv')
