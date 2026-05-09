@@ -42,8 +42,11 @@ wheels/
 Thumbs.db
 
 # 不上传到 GitHub
-网页展示/
 求职Agent/
 练习/
 *.pkl
 手写数字识别.csv
+4.深度学习/*/data/
+4.深度学习/*/model/
+CLAUDE.md
+*.mp3
