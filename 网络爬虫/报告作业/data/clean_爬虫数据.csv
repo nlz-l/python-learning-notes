@@ -1,0 +1,706 @@
+﻿编号,年龄,性别,学历,国家,日均上网时长(小时),是否影响学业,日均睡眠(小时),心理健康评分,感情状况,社交媒体冲突次数,网络成瘾评分,平台_Facebook,平台_Instagram,平台_KakaoTalk,平台_LINE,平台_LinkedIn,平台_Snapchat,平台_TikTok,平台_Twitter,平台_VKontakte,平台_WeChat,平台_WhatsApp,平台_YouTube,网络成瘾_正向,网络使用深度得分,学习状态得分,身心健康得分
+1,19,0,Undergraduate,Bangladesh,5.2,1,6.5,6,1,3,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.119047619047619,0,2.163793103448276
+2,22,1,Graduate,India,2.1,0,7.5,8,0,0,3,False,False,False,False,False,False,False,True,False,False,False,False,7,1.5714285714285714,5,3.594827586206897
+3,20,0,Undergraduate,USA,6.0,1,5.0,5,2,4,9,False,False,False,False,False,False,True,False,False,False,False,False,1,2.404761904761905,0,1.017241379310345
+4,18,1,High School,UK,3.0,0,7.0,7,0,1,4,False,False,False,False,False,False,False,False,False,False,False,True,6,1.880952380952381,5,2.879310344827586
+5,21,1,Graduate,Canada,4.5,1,6.0,6,1,2,7,True,False,False,False,False,False,False,False,False,False,False,False,3,1.8571428571428572,0,1.9482758620689655
+6,19,0,Undergraduate,Australia,7.2,1,4.5,4,2,5,9,False,True,False,False,False,False,False,False,False,False,False,False,1,3.0238095238095237,0,0.3017241379310346
+7,23,1,Graduate,Germany,1.5,0,8.0,9,0,0,2,False,False,False,False,True,False,False,False,False,False,False,False,8,1.6666666666666665,5,4.310344827586206
+8,20,0,Undergraduate,Brazil,5.8,1,6.0,6,1,2,8,False,False,False,False,False,True,False,False,False,False,False,False,2,1.9285714285714284,0,1.9482758620689655
+9,18,1,High School,Japan,4.0,0,6.5,7,0,1,5,False,False,False,False,False,False,True,False,False,False,False,False,5,1.880952380952381,5,2.663793103448276
+10,21,0,Graduate,South Korea,3.3,0,7.0,7,1,1,4,False,True,False,False,False,False,False,False,False,False,False,False,6,1.9523809523809523,5,2.879310344827586
+11,19,1,Undergraduate,France,4.8,1,6.2,5,2,3,7,False,False,False,False,False,True,False,False,False,False,False,False,3,2.261904761904762,0,1.53448275862069
+12,20,0,Undergraduate,Spain,5.5,1,5.8,6,1,2,8,False,False,False,False,False,False,True,False,False,False,False,False,2,1.8571428571428572,0,1.8620689655172415
+13,22,1,Graduate,Italy,2.8,0,7.2,8,0,1,4,False,False,False,False,True,False,False,False,False,False,False,False,6,1.8333333333333335,5,3.4655172413793105
+14,18,0,High School,Mexico,6.5,1,5.5,5,0,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.5238095238095237,0,1.2327586206896552
+15,21,1,Undergraduate,Russia,3.7,0,6.8,7,1,2,5,False,False,False,False,False,False,False,False,False,False,False,True,5,2.1428571428571432,5,2.793103448275862
+16,20,0,Undergraduate,China,4.2,1,6.0,6,2,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.119047619047619,0,1.9482758620689655
+17,24,1,Graduate,Sweden,2.0,0,7.8,8,0,0,3,False,False,False,False,True,False,False,False,False,False,False,False,7,1.5476190476190474,5,3.724137931034483
+18,19,0,High School,Norway,5.0,1,5.7,5,1,3,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.0714285714285716,0,1.3189655172413794
+19,21,1,Undergraduate,Denmark,3.5,0,6.7,7,0,1,5,True,False,False,False,False,False,False,False,False,False,False,False,5,1.761904761904762,5,2.75
+20,20,0,Undergraduate,Netherlands,4.7,1,5.9,6,2,3,7,False,False,False,False,False,True,False,False,False,False,False,False,3,2.238095238095238,0,1.9051724137931036
+21,18,1,High School,Belgium,5.3,1,5.5,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.4761904761904763,0,1.2327586206896552
+22,23,0,Graduate,Switzerland,2.5,0,7.3,8,1,1,4,False,False,False,False,True,False,False,False,False,False,False,False,6,1.761904761904762,5,3.5086206896551726
+23,19,1,Undergraduate,Austria,4.9,1,5.8,6,2,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.2857142857142856,0,1.8620689655172415
+24,20,0,Undergraduate,Portugal,5.7,1,5.4,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.571428571428571,0,1.1896551724137934
+25,22,1,Graduate,Greece,3.2,0,6.9,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.023809523809524,5,2.836206896551724
+26,19,0,High School,Ireland,6.1,1,5.2,5,2,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.428571428571429,0,1.1034482758620692
+27,21,1,Undergraduate,New Zealand,3.8,0,6.6,7,0,1,5,False,False,False,False,False,False,False,False,False,False,False,True,5,1.8333333333333335,5,2.706896551724138
+28,20,0,Undergraduate,Singapore,4.4,1,5.9,6,1,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.1666666666666665,0,1.9051724137931036
+29,24,1,Graduate,Malaysia,2.2,0,7.4,8,0,0,3,False,False,False,False,True,False,False,False,False,False,False,False,7,1.5952380952380951,5,3.5517241379310347
+30,19,0,High School,Thailand,5.9,1,5.3,5,2,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.619047619047619,0,1.146551724137931
+31,21,1,Undergraduate,Vietnam,3.6,0,6.7,7,0,1,5,True,False,False,False,False,False,False,False,False,False,False,False,5,1.7857142857142858,5,2.75
+32,20,0,Undergraduate,Philippines,4.8,1,5.7,6,1,3,7,False,False,False,False,False,True,False,False,False,False,False,False,3,2.261904761904762,0,1.8189655172413794
+33,18,1,High School,Indonesia,5.4,1,5.4,5,2,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.5,0,1.1896551724137934
+34,23,0,Graduate,Taiwan,2.6,0,7.2,8,0,1,4,False,False,False,False,True,False,False,False,False,False,False,False,6,1.785714285714286,5,3.4655172413793105
+35,19,1,Undergraduate,Hong Kong,4.7,1,5.8,6,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.238095238095238,0,1.8620689655172415
+36,20,0,Undergraduate,Turkey,5.6,1,5.5,5,2,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.5476190476190474,0,1.2327586206896552
+37,22,1,Graduate,Israel,3.1,0,6.8,7,0,1,5,True,False,False,False,False,False,False,False,False,False,False,False,5,1.6666666666666665,5,2.793103448275862
+38,19,0,High School,UAE,6.2,1,5.1,5,1,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.4523809523809526,0,1.0603448275862069
+39,21,1,Undergraduate,Egypt,3.9,0,6.5,7,2,2,6,False,False,False,False,False,False,False,False,False,False,False,True,4,1.9523809523809523,5,2.663793103448276
+40,20,0,Undergraduate,Morocco,4.5,1,5.8,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.1904761904761902,0,1.8620689655172415
+41,24,1,Graduate,South Africa,2.3,0,7.3,8,1,1,4,False,False,False,False,True,False,False,False,False,False,False,False,6,1.714285714285714,5,3.5086206896551726
+42,19,0,High School,Nigeria,5.8,1,5.4,5,2,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.595238095238095,0,1.1896551724137934
+43,21,1,Undergraduate,Kenya,3.7,0,6.6,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.1428571428571432,5,2.706896551724138
+44,20,0,Undergraduate,Ghana,4.6,1,5.7,6,1,3,7,False,False,False,False,False,True,False,False,False,False,False,False,3,2.214285714285714,0,1.8189655172413794
+45,18,1,High School,Argentina,5.5,1,5.3,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.5238095238095237,0,1.146551724137931
+46,23,0,Graduate,Chile,2.7,0,7.1,8,2,1,4,False,False,False,False,True,False,False,False,False,False,False,False,6,1.8095238095238098,5,3.4224137931034484
+47,19,1,Undergraduate,Colombia,4.8,1,5.9,6,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.261904761904762,0,1.9051724137931036
+48,20,0,Undergraduate,Peru,5.5,1,5.6,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.5238095238095237,0,1.275862068965517
+49,22,1,Graduate,Venezuela,3.3,0,6.7,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.047619047619048,5,2.75
+50,19,0,High School,Ecuador,6.3,1,5.2,5,2,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.4761904761904763,0,1.1034482758620692
+51,21,1,Undergraduate,Uruguay,3.8,0,6.4,7,0,2,6,False,False,False,False,False,False,False,False,False,False,False,True,4,1.9285714285714286,5,2.620689655172414
+52,20,0,Undergraduate,Paraguay,4.7,1,5.8,6,1,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.238095238095238,0,1.8620689655172415
+53,24,1,Graduate,Bolivia,2.4,0,7.2,8,2,1,4,False,False,False,False,True,False,False,False,False,False,False,False,6,1.7380952380952384,5,3.4655172413793105
+54,19,0,High School,Costa Rica,5.7,1,5.5,5,0,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.571428571428571,0,1.2327586206896552
+55,21,1,Undergraduate,Panama,3.6,0,6.5,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.119047619047619,5,2.663793103448276
+56,20,0,Undergraduate,Jamaica,4.9,1,5.6,6,2,3,7,False,False,False,False,False,True,False,False,False,False,False,False,3,2.2857142857142856,0,1.7758620689655171
+57,18,1,High School,Trinidad,5.6,1,5.2,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.5476190476190474,0,1.1034482758620692
+58,23,0,Graduate,Bahamas,2.8,0,7.0,8,1,1,4,False,False,False,False,True,False,False,False,False,False,False,False,6,1.8333333333333335,5,3.3793103448275863
+59,19,1,Undergraduate,Iceland,4.6,1,5.9,6,2,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.214285714285714,0,1.9051724137931036
+60,20,0,Undergraduate,Finland,5.4,1,5.7,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.5,0,1.3189655172413794
+61,22,1,Graduate,Poland,3.1,0,7.1,7,0,1,5,True,False,False,False,False,False,False,False,False,False,False,False,5,1.6666666666666665,5,2.9224137931034484
+62,19,0,Undergraduate,Romania,5.6,1,5.6,5,1,3,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.214285714285714,0,1.275862068965517
+63,20,1,Undergraduate,Hungary,4.2,1,6.0,6,2,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.119047619047619,0,1.9482758620689655
+64,18,0,High School,Czech Republic,6.1,1,5.2,4,0,4,9,False,False,False,False,False,True,False,False,False,False,False,False,1,2.428571428571429,0,0.6034482758620692
+65,23,1,Graduate,Slovakia,2.3,0,7.4,8,1,1,3,False,False,False,False,True,False,False,False,False,False,False,False,7,1.952380952380952,5,3.5517241379310347
+66,21,0,Undergraduate,Croatia,4.8,1,5.8,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.261904761904762,0,1.8620689655172415
+67,20,1,Undergraduate,Serbia,3.9,0,6.5,7,2,2,6,False,False,False,False,False,False,False,False,False,False,False,True,4,1.9523809523809523,5,2.663793103448276
+68,19,0,High School,Slovenia,5.7,1,5.4,5,1,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.571428571428571,0,1.1896551724137934
+69,22,1,Graduate,Bulgaria,2.8,0,7.2,8,0,1,4,False,False,False,False,True,False,False,False,False,False,False,False,6,1.8333333333333335,5,3.4655172413793105
+70,20,0,Undergraduate,Estonia,4.5,1,5.9,6,2,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.1904761904761902,0,1.9051724137931036
+71,18,1,High School,Latvia,5.4,1,5.5,5,0,4,8,False,False,False,False,False,True,False,False,False,False,False,False,2,2.5,0,1.2327586206896552
+72,21,0,Graduate,Lithuania,3.2,0,6.8,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.023809523809524,5,2.793103448275862
+73,19,1,Undergraduate,Ukraine,4.9,1,5.7,6,2,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.2857142857142856,0,1.8189655172413794
+74,20,0,Undergraduate,Moldova,5.8,1,5.3,5,0,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.595238095238095,0,1.146551724137931
+75,23,1,Graduate,Belarus,2.5,0,7.3,8,1,1,4,False,False,False,False,True,False,False,False,False,False,False,False,6,1.761904761904762,5,3.5086206896551726
+76,21,0,Undergraduate,Kazakhstan,4.6,1,5.8,6,0,3,7,False,False,False,False,False,True,False,False,False,False,False,False,3,2.214285714285714,0,1.8620689655172415
+77,19,1,High School,Uzbekistan,5.5,1,5.4,5,2,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.5238095238095237,0,1.1896551724137934
+78,22,0,Graduate,Kyrgyzstan,2.9,0,7.0,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,1.952380952380952,5,2.879310344827586
+79,20,1,Undergraduate,Tajikistan,4.7,1,5.9,6,0,3,7,False,False,False,False,False,False,False,False,False,False,False,True,3,2.238095238095238,0,1.9051724137931036
+80,18,0,High School,Armenia,5.9,1,5.2,5,2,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.3809523809523814,0,1.1034482758620692
+81,21,1,Graduate,Georgia,3.0,0,7.1,8,1,1,4,False,False,False,False,True,False,False,False,False,False,False,False,6,1.880952380952381,5,3.4224137931034484
+82,19,0,Undergraduate,Azerbaijan,4.8,1,5.7,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.261904761904762,0,1.8189655172413794
+83,20,1,Undergraduate,Cyprus,3.8,0,6.6,7,2,2,6,True,False,False,False,False,False,False,False,False,False,False,False,4,1.9285714285714286,5,2.706896551724138
+84,22,0,Graduate,Malta,2.7,0,7.2,8,1,1,4,False,False,False,False,True,False,False,False,False,False,False,False,6,1.8095238095238098,5,3.4655172413793105
+85,18,1,High School,Luxembourg,5.6,1,5.3,5,0,4,8,False,False,False,False,False,True,False,False,False,False,False,False,2,2.5476190476190474,0,1.146551724137931
+86,21,0,Undergraduate,Monaco,4.5,1,5.8,6,2,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.1904761904761902,0,1.8620689655172415
+87,19,1,High School,Andorra,5.3,1,5.5,5,1,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.4761904761904763,0,1.2327586206896552
+88,23,0,Graduate,San Marino,2.6,0,7.3,8,0,1,4,False,False,False,False,True,False,False,False,False,False,False,False,6,1.785714285714286,5,3.5086206896551726
+89,20,1,Undergraduate,Vatican City,4.4,1,6.0,6,2,3,7,False,False,False,False,False,False,False,False,False,False,False,True,3,2.1666666666666665,0,1.9482758620689655
+90,18,0,High School,Liechtenstein,5.8,1,5.2,5,0,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.3571428571428568,0,1.1034482758620692
+91,22,1,Graduate,Montenegro,2.9,0,7.0,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,1.952380952380952,5,2.879310344827586
+92,19,0,Undergraduate,Albania,4.7,1,5.8,6,2,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.238095238095238,0,1.8620689655172415
+93,21,1,Undergraduate,North Macedonia,3.7,0,6.5,7,0,2,6,False,False,False,False,False,True,False,False,False,False,False,False,4,1.9047619047619049,5,2.663793103448276
+94,20,0,High School,Kosovo,5.5,1,5.4,5,1,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.5238095238095237,0,1.1896551724137934
+95,23,1,Graduate,Bosnia,2.4,0,7.4,8,2,1,4,False,False,False,False,True,False,False,False,False,False,False,False,6,1.7380952380952384,5,3.5517241379310347
+96,19,0,Undergraduate,Qatar,4.9,1,5.7,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.2857142857142856,0,1.8189655172413794
+97,18,1,High School,Kuwait,5.7,1,5.3,5,1,4,8,False,False,False,False,False,True,False,False,False,False,False,False,2,2.571428571428571,0,1.146551724137931
+98,22,0,Graduate,Bahrain,2.8,0,7.1,8,2,1,4,False,False,False,False,True,False,False,False,False,False,False,False,6,1.8333333333333335,5,3.4224137931034484
+99,20,1,Undergraduate,Oman,4.6,1,5.9,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.214285714285714,0,1.9051724137931036
+100,21,0,Undergraduate,Jordan,5.4,1,5.5,5,1,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.5,0,1.2327586206896552
+101,19,1,High School,Lebanon,5.8,1,5.2,5,2,4,9,False,False,False,False,False,False,False,False,False,False,False,True,1,2.3571428571428568,0,1.1034482758620692
+102,23,0,Graduate,Iraq,2.5,0,7.3,8,0,1,4,False,False,False,False,True,False,False,False,False,False,False,False,6,1.761904761904762,5,3.5086206896551726
+103,20,1,Undergraduate,Yemen,4.7,1,5.8,6,1,3,7,True,False,False,False,False,False,False,False,False,False,False,False,3,2.238095238095238,0,1.8620689655172415
+104,18,0,High School,Syria,5.6,1,5.4,5,0,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.5476190476190474,0,1.1896551724137934
+105,22,1,Graduate,Afghanistan,2.9,0,7.0,7,2,2,5,False,False,False,False,True,False,False,False,False,False,False,False,5,1.952380952380952,5,2.879310344827586
+106,19,0,Undergraduate,Pakistan,4.8,1,5.7,6,1,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.261904761904762,0,1.8189655172413794
+107,21,1,Undergraduate,Nepal,3.8,0,6.6,7,0,2,6,False,False,False,False,False,False,False,False,False,False,False,True,4,1.9285714285714286,5,2.706896551724138
+108,20,0,High School,Bhutan,5.5,1,5.5,5,2,4,8,False,False,False,False,False,True,False,False,False,False,False,False,2,2.5238095238095237,0,1.2327586206896552
+109,23,1,Graduate,Sri Lanka,2.6,0,7.2,8,1,1,4,False,False,False,False,True,False,False,False,False,False,False,False,6,1.785714285714286,5,3.4655172413793105
+110,19,0,Undergraduate,Maldives,4.9,1,5.8,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.2857142857142856,0,1.8620689655172415
+111,20,1,Undergraduate,Bangladesh,6.1,1,6.2,5,0,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.6666666666666665,0,1.53448275862069
+112,21,0,Undergraduate,India,5.8,1,5.9,6,1,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.5,0,1.9051724137931036
+113,19,1,Undergraduate,Nepal,4.9,0,7.1,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.428571428571429,5,2.9224137931034484
+114,22,0,Graduate,Pakistan,5.5,1,6.0,5,0,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.5238095238095237,0,1.4482758620689657
+115,20,1,Undergraduate,Sri Lanka,5.2,1,6.3,6,1,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.3571428571428568,0,2.0775862068965516
+116,19,0,Undergraduate,Maldives,4.8,0,7.2,8,0,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.4047619047619047,5,3.4655172413793105
+117,21,1,Graduate,Bangladesh,6.0,1,5.8,5,1,4,8,True,False,False,False,False,False,False,False,False,False,False,False,2,2.642857142857143,0,1.3620689655172413
+118,20,0,Undergraduate,India,5.7,1,6.1,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.4761904761904763,0,1.9913793103448274
+119,22,1,Graduate,Nepal,4.7,0,7.3,7,0,2,5,False,False,False,False,False,False,True,False,False,False,False,False,5,2.380952380952381,5,3.0086206896551726
+120,19,0,Undergraduate,Pakistan,5.4,1,6.2,5,1,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.5,0,1.53448275862069
+121,20,1,Undergraduate,Sri Lanka,5.9,1,5.9,6,0,3,7,True,False,False,False,False,False,False,False,False,False,False,False,3,2.5238095238095237,0,1.9051724137931036
+122,21,0,Graduate,Maldives,4.6,0,7.4,8,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.3571428571428568,5,3.5517241379310347
+123,19,1,Undergraduate,Bangladesh,5.3,1,6.3,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.4761904761904763,0,1.5775862068965518
+124,22,0,Graduate,India,5.8,1,5.8,6,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.5,0,1.8620689655172415
+125,20,1,Undergraduate,Nepal,4.5,0,7.5,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.333333333333333,5,3.0948275862068964
+126,21,0,Graduate,Pakistan,5.2,1,6.4,5,1,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.4523809523809526,0,1.6206896551724141
+127,19,1,Undergraduate,Sri Lanka,5.7,1,5.7,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.4761904761904763,0,1.8189655172413794
+128,20,0,Undergraduate,Maldives,4.4,0,7.6,8,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.3095238095238093,5,3.637931034482759
+129,22,1,Graduate,Bangladesh,5.1,1,6.5,5,0,4,8,True,False,False,False,False,False,False,False,False,False,False,False,2,2.4285714285714284,0,1.6637931034482762
+130,21,0,Graduate,India,5.6,1,5.6,6,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.4523809523809517,0,1.7758620689655171
+131,19,1,Undergraduate,Nepal,4.3,0,7.7,7,0,2,5,False,False,False,False,False,False,True,False,False,False,False,False,5,2.2857142857142856,5,3.181034482758621
+132,20,0,Undergraduate,Pakistan,5.0,1,6.6,5,1,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.4047619047619047,0,1.706896551724138
+133,22,1,Graduate,Sri Lanka,5.5,1,5.5,6,0,3,7,True,False,False,False,False,False,False,False,False,False,False,False,3,2.428571428571428,0,1.7327586206896552
+134,21,0,Graduate,Maldives,4.2,0,7.8,8,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.261904761904762,5,3.724137931034483
+135,19,1,Undergraduate,Bangladesh,4.9,1,6.7,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.380952380952381,0,1.7500000000000004
+136,20,0,Undergraduate,India,5.4,1,5.4,6,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.404761904761904,0,1.6896551724137934
+137,22,1,Graduate,Nepal,4.1,0,7.9,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.238095238095238,5,3.267241379310345
+138,21,0,Graduate,Pakistan,4.8,1,6.8,5,1,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.3571428571428568,0,1.7931034482758623
+139,19,1,Undergraduate,Sri Lanka,5.3,1,5.3,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.3809523809523805,0,1.6465517241379313
+140,20,0,Undergraduate,Maldives,4.0,0,8.0,8,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.2142857142857144,5,3.8103448275862073
+141,22,1,Graduate,Bangladesh,4.7,1,6.9,5,0,4,8,True,False,False,False,False,False,False,False,False,False,False,False,2,2.333333333333333,0,1.8362068965517242
+142,21,0,Graduate,India,5.2,1,5.2,6,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.3571428571428568,0,1.6034482758620692
+143,19,1,Undergraduate,Nepal,3.9,0,8.1,7,0,2,5,False,False,False,False,False,False,True,False,False,False,False,False,5,2.1904761904761907,5,3.3534482758620685
+144,20,0,Undergraduate,Pakistan,4.6,1,7.0,5,1,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.3095238095238093,0,1.879310344827586
+145,22,1,Graduate,Sri Lanka,5.1,1,5.1,6,0,3,7,True,False,False,False,False,False,False,False,False,False,False,False,3,2.333333333333333,0,1.5603448275862069
+146,21,0,Graduate,Maldives,3.8,0,8.2,8,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.166666666666667,5,3.896551724137931
+147,19,1,Undergraduate,Bangladesh,4.5,1,7.1,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.2857142857142856,0,1.9224137931034484
+148,20,0,Undergraduate,India,5.0,1,5.0,6,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.3095238095238093,0,1.5172413793103452
+149,22,1,Graduate,Nepal,3.7,0,8.3,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.1428571428571432,5,3.4396551724137936
+150,21,0,Graduate,Pakistan,4.4,1,7.2,5,1,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.261904761904762,0,1.9655172413793105
+151,19,1,Undergraduate,Sri Lanka,4.9,1,4.9,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.2857142857142856,0,1.474137931034483
+152,20,0,Undergraduate,Maldives,3.6,0,8.4,8,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.119047619047619,5,3.9827586206896557
+153,22,1,Graduate,Bangladesh,4.3,1,7.3,5,0,4,8,True,False,False,False,False,False,False,False,False,False,False,False,2,2.238095238095238,0,2.008620689655172
+154,21,0,Graduate,India,4.8,1,4.8,6,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.261904761904762,0,1.4310344827586208
+155,19,1,Undergraduate,Nepal,3.5,0,8.5,7,0,2,5,False,False,False,False,False,False,True,False,False,False,False,False,5,2.0952380952380953,5,3.5258620689655173
+156,20,0,Undergraduate,Pakistan,4.2,1,7.4,5,1,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.2142857142857144,0,2.0517241379310347
+157,22,1,Graduate,Sri Lanka,4.7,1,4.7,6,0,3,7,True,False,False,False,False,False,False,False,False,False,False,False,3,2.238095238095238,0,1.387931034482759
+158,21,0,Graduate,Maldives,3.4,0,8.6,8,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.0714285714285716,5,4.06896551724138
+159,19,1,Undergraduate,Bangladesh,4.1,1,7.5,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.1904761904761907,0,2.094827586206897
+160,20,0,Undergraduate,India,4.6,1,4.6,6,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.214285714285714,0,1.3448275862068964
+161,19,0,Undergraduate,Bangladesh,5.3,1,6.1,5,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.3809523809523805,0,1.4913793103448274
+162,21,1,Graduate,India,4.8,0,7.2,7,1,2,6,True,False,False,False,False,False,False,False,False,False,False,False,4,2.166666666666667,5,2.9655172413793105
+163,20,0,Undergraduate,Nepal,5.5,1,5.9,6,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.5238095238095237,0,1.9051724137931036
+164,22,1,Graduate,Pakistan,4.7,1,6.3,5,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.238095238095238,0,1.5775862068965518
+165,19,0,Undergraduate,Sri Lanka,5.1,0,7.0,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.4761904761904763,5,2.879310344827586
+166,21,1,Graduate,Maldives,5.4,1,6.0,6,1,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.5,0,1.9482758620689655
+167,20,0,Undergraduate,Bangladesh,4.9,1,6.4,5,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.2857142857142856,0,1.6206896551724141
+168,22,1,Graduate,India,5.2,0,7.1,7,1,2,6,True,False,False,False,False,False,False,False,False,False,False,False,4,2.261904761904762,5,2.9224137931034484
+169,19,0,Undergraduate,Nepal,5.6,1,5.8,6,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.5476190476190474,0,1.8620689655172415
+170,21,1,Graduate,Pakistan,4.6,1,6.5,5,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.214285714285714,0,1.6637931034482762
+171,20,0,Undergraduate,Sri Lanka,5.0,0,7.3,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.4523809523809526,5,3.0086206896551726
+172,22,1,Graduate,Maldives,5.3,1,5.7,6,1,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.4761904761904763,0,1.8189655172413794
+173,19,0,Undergraduate,Bangladesh,4.8,1,6.6,5,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.261904761904762,0,1.706896551724138
+174,21,1,Graduate,India,5.1,0,7.4,7,1,2,6,True,False,False,False,False,False,False,False,False,False,False,False,4,2.238095238095238,5,3.0517241379310347
+175,20,0,Undergraduate,Nepal,5.7,1,5.6,6,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.571428571428571,0,1.7758620689655171
+176,22,1,Graduate,Pakistan,4.5,1,6.7,5,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.1904761904761902,0,1.7500000000000004
+177,19,0,Undergraduate,Sri Lanka,4.9,0,7.5,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.428571428571429,5,3.0948275862068964
+178,21,1,Graduate,Maldives,5.2,1,5.5,6,1,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.4523809523809526,0,1.7327586206896552
+179,20,0,Undergraduate,Bangladesh,4.7,1,6.8,5,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.238095238095238,0,1.7931034482758623
+180,22,1,Graduate,India,5.0,0,7.6,7,1,2,6,True,False,False,False,False,False,False,False,False,False,False,False,4,2.2142857142857144,5,3.137931034482758
+181,19,0,Undergraduate,Nepal,5.8,1,5.4,6,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.595238095238095,0,1.6896551724137934
+182,21,1,Graduate,Pakistan,4.4,1,6.9,5,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.1666666666666665,0,1.8362068965517242
+183,20,0,Undergraduate,Sri Lanka,4.8,0,7.7,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.4047619047619047,5,3.181034482758621
+184,22,1,Graduate,Maldives,5.1,1,5.3,6,1,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.4285714285714284,0,1.6465517241379313
+185,19,0,Undergraduate,Bangladesh,4.6,1,7.0,5,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.214285714285714,0,1.879310344827586
+186,21,1,Graduate,India,4.9,0,7.8,7,1,2,6,True,False,False,False,False,False,False,False,False,False,False,False,4,2.1904761904761907,5,3.224137931034483
+187,20,0,Undergraduate,Nepal,5.9,1,5.2,6,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.619047619047619,0,1.6034482758620692
+188,22,1,Graduate,Pakistan,4.3,1,7.1,5,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.142857142857143,0,1.9224137931034484
+189,19,0,Undergraduate,Sri Lanka,4.7,0,7.9,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.380952380952381,5,3.267241379310345
+190,21,1,Graduate,Maldives,5.0,1,5.1,6,1,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.4047619047619047,0,1.5603448275862069
+191,20,0,Undergraduate,Bangladesh,4.5,1,7.2,5,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.1904761904761902,0,1.9655172413793105
+192,22,1,Graduate,India,4.8,0,8.0,7,1,2,6,True,False,False,False,False,False,False,False,False,False,False,False,4,2.166666666666667,5,3.310344827586207
+193,19,0,Undergraduate,Nepal,6.0,1,5.0,6,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.642857142857143,0,1.5172413793103452
+194,21,1,Graduate,Pakistan,4.2,1,7.3,5,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.119047619047619,0,2.008620689655172
+195,20,0,Undergraduate,Sri Lanka,4.6,0,8.1,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.3571428571428568,5,3.3534482758620685
+196,22,1,Graduate,Maldives,4.9,1,4.9,6,1,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.380952380952381,0,1.474137931034483
+197,19,0,Undergraduate,Bangladesh,4.4,1,7.4,5,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.1666666666666665,0,2.0517241379310347
+198,21,1,Graduate,India,4.7,0,8.2,7,1,2,6,True,False,False,False,False,False,False,False,False,False,False,False,4,2.1428571428571432,5,3.3965517241379306
+199,20,0,Undergraduate,Nepal,6.1,1,4.8,6,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.6666666666666665,0,1.4310344827586208
+200,22,1,Graduate,Pakistan,4.1,1,7.5,5,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.0952380952380953,0,2.094827586206897
+201,19,0,Undergraduate,Sri Lanka,4.5,0,8.3,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.333333333333333,5,3.4396551724137936
+202,21,1,Graduate,Maldives,4.8,1,4.7,6,1,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.3571428571428568,0,1.387931034482759
+203,20,0,Undergraduate,Bangladesh,4.3,1,7.6,5,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.142857142857143,0,2.1379310344827585
+204,22,1,Graduate,India,4.6,0,8.4,7,1,2,6,True,False,False,False,False,False,False,False,False,False,False,False,4,2.119047619047619,5,3.4827586206896557
+205,19,0,Undergraduate,Nepal,6.2,1,4.6,6,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.6904761904761902,0,1.3448275862068964
+206,21,1,Graduate,Pakistan,4.0,1,7.7,5,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.0714285714285716,0,2.181034482758621
+207,20,0,Undergraduate,Sri Lanka,4.4,0,8.5,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.3095238095238093,5,3.5258620689655173
+208,22,1,Graduate,Maldives,4.7,1,4.5,6,1,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.333333333333333,0,1.3017241379310347
+209,19,0,Undergraduate,Bangladesh,4.2,1,7.8,5,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.119047619047619,0,2.2241379310344827
+210,21,1,Graduate,India,4.5,0,8.6,7,1,2,6,True,False,False,False,False,False,False,False,False,False,False,False,4,2.0952380952380953,5,3.568965517241379
+211,20,0,Undergraduate,Nepal,6.3,1,4.4,6,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.714285714285714,0,1.2586206896551726
+212,22,1,Graduate,Pakistan,3.9,1,7.9,5,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.047619047619048,0,2.267241379310345
+213,19,0,Undergraduate,Sri Lanka,4.3,0,8.7,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.2857142857142856,5,3.612068965517241
+214,21,1,Graduate,Maldives,4.6,1,4.3,6,1,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.3095238095238093,0,1.2155172413793105
+215,20,0,Undergraduate,Bangladesh,4.1,1,8.0,5,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.0952380952380953,0,2.3103448275862073
+216,22,1,Graduate,India,4.4,0,8.8,7,1,2,6,True,False,False,False,False,False,False,False,False,False,False,False,4,2.0714285714285716,5,3.655172413793104
+217,19,0,Undergraduate,Nepal,6.4,1,4.2,6,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.7380952380952377,0,1.1724137931034486
+218,21,1,Graduate,Pakistan,3.8,1,8.1,5,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.023809523809524,0,2.353448275862069
+219,20,0,Undergraduate,Sri Lanka,4.2,0,8.9,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.261904761904762,5,3.698275862068966
+220,22,1,Graduate,Maldives,4.5,1,4.1,6,1,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.2857142857142856,0,1.1293103448275863
+221,19,0,Undergraduate,USA,6.5,1,6.0,5,0,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.5238095238095237,0,1.4482758620689657
+222,21,1,Graduate,UK,5.8,1,6.5,6,1,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.5,0,2.163793103448276
+223,20,0,Undergraduate,Australia,4.5,0,7.5,8,0,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.333333333333333,5,3.594827586206897
+224,22,1,Graduate,Germany,4.2,0,7.8,7,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.5,5,3.224137931034483
+225,19,0,Undergraduate,Japan,3.8,0,7.9,8,0,1,3,False,False,False,True,False,False,False,False,False,False,False,False,7,2.3095238095238093,5,3.767241379310345
+226,21,1,Graduate,Italy,5.5,1,6.8,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.428571428571428,0,2.293103448275862
+227,20,0,Undergraduate,South Korea,5.2,1,6.5,6,1,3,6,False,False,True,False,False,False,False,False,False,False,False,False,4,2.5952380952380953,0,2.163793103448276
+228,22,1,Graduate,Russia,4.8,0,7.2,7,0,2,5,False,False,False,False,False,False,False,False,True,False,False,False,5,2.4047619047619047,5,2.9655172413793105
+229,19,0,Undergraduate,USA,7.0,1,5.8,4,1,4,9,False,False,False,False,False,False,True,False,False,False,False,False,1,2.642857142857143,0,0.8620689655172414
+230,21,1,Graduate,UK,5.5,1,6.7,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.428571428571428,0,2.2500000000000004
+231,20,0,Undergraduate,Australia,4.7,0,7.4,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.380952380952381,5,3.0517241379310347
+232,22,1,Graduate,Germany,4.0,0,7.9,8,0,1,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.119047619047619,5,3.767241379310345
+233,19,0,Undergraduate,Japan,3.5,0,8.0,8,0,1,3,False,False,False,True,False,False,False,False,False,False,False,False,7,2.238095238095238,5,3.8103448275862073
+234,21,1,Graduate,Italy,5.7,1,6.5,5,1,3,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.238095238095238,0,1.6637931034482762
+235,20,0,Undergraduate,South Korea,5.0,1,6.8,6,0,3,6,False,False,True,False,False,False,False,False,False,False,False,False,4,2.547619047619048,0,2.293103448275862
+236,22,1,Graduate,Russia,4.5,0,7.4,7,1,2,5,False,False,False,False,False,False,False,False,True,False,False,False,5,2.333333333333333,5,3.0517241379310347
+237,19,0,Undergraduate,USA,6.8,1,5.9,4,0,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.5952380952380953,0,0.9051724137931038
+238,21,1,Graduate,UK,5.6,1,6.6,6,1,3,7,True,False,False,False,False,False,False,False,False,False,False,False,3,2.4523809523809517,0,2.206896551724138
+239,20,0,Undergraduate,Australia,4.6,0,7.3,7,0,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.3571428571428568,5,3.0086206896551726
+240,22,1,Graduate,Germany,4.1,0,7.7,8,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.4761904761904763,5,3.681034482758621
+241,19,0,Undergraduate,Japan,3.7,0,7.8,8,0,1,3,False,False,False,True,False,False,False,False,False,False,False,False,7,2.2857142857142856,5,3.724137931034483
+242,21,1,Graduate,Italy,5.4,1,6.7,5,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.404761904761904,0,1.7500000000000004
+243,20,0,Undergraduate,South Korea,5.1,1,6.6,6,1,3,6,False,False,True,False,False,False,False,False,False,False,False,False,4,2.5714285714285716,0,2.206896551724138
+244,22,1,Graduate,Russia,4.7,0,7.3,7,0,2,5,False,False,False,False,False,False,False,False,True,False,False,False,5,2.380952380952381,5,3.0086206896551726
+245,19,0,Undergraduate,USA,6.9,1,5.7,4,1,4,9,False,False,False,False,False,False,True,False,False,False,False,False,1,2.619047619047619,0,0.8189655172413794
+246,21,1,Graduate,UK,5.7,1,6.4,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.4761904761904763,0,2.120689655172414
+247,20,0,Undergraduate,Australia,4.8,0,7.2,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.4047619047619047,5,2.9655172413793105
+248,22,1,Graduate,Germany,3.9,0,7.8,8,0,1,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.0952380952380953,5,3.724137931034483
+249,19,0,Undergraduate,Japan,3.6,0,8.1,8,0,1,3,False,False,False,True,False,False,False,False,False,False,False,False,7,2.261904761904762,5,3.8534482758620694
+250,21,1,Graduate,Italy,5.6,1,6.6,5,1,3,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.214285714285714,0,1.706896551724138
+251,20,0,Undergraduate,South Korea,4.9,1,6.9,6,0,3,6,False,False,True,False,False,False,False,False,False,False,False,False,4,2.523809523809524,0,2.336206896551724
+252,22,1,Graduate,Russia,4.6,0,7.5,7,1,2,5,False,False,False,False,False,False,False,False,True,False,False,False,5,2.3571428571428568,5,3.0948275862068964
+253,19,0,Undergraduate,USA,6.7,1,5.8,4,0,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.5714285714285716,0,0.8620689655172414
+254,21,1,Graduate,UK,5.4,1,6.5,6,1,3,7,True,False,False,False,False,False,False,False,False,False,False,False,3,2.404761904761904,0,2.163793103448276
+255,20,0,Undergraduate,Australia,4.4,0,7.4,7,0,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.3095238095238093,5,3.0517241379310347
+256,22,1,Graduate,Germany,4.0,0,7.6,8,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.4523809523809526,5,3.637931034482759
+257,19,0,Undergraduate,Japan,3.4,0,8.2,8,0,1,3,False,False,False,True,False,False,False,False,False,False,False,False,7,2.2142857142857144,5,3.896551724137931
+258,21,1,Graduate,Italy,5.3,1,6.8,5,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.3809523809523805,0,1.7931034482758623
+259,20,0,Undergraduate,South Korea,5.0,1,6.7,6,1,3,6,False,False,True,False,False,False,False,False,False,False,False,False,4,2.547619047619048,0,2.2500000000000004
+260,22,1,Graduate,Russia,4.4,0,7.6,7,0,2,5,False,False,False,False,False,False,False,False,True,False,False,False,5,2.3095238095238093,5,3.137931034482758
+261,19,0,Undergraduate,USA,6.6,1,5.6,4,1,4,9,False,False,False,False,False,False,True,False,False,False,False,False,1,2.5476190476190474,0,0.7758620689655171
+262,21,1,Graduate,UK,5.3,1,6.3,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.3809523809523805,0,2.0775862068965516
+263,20,0,Undergraduate,Australia,4.3,0,7.5,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.2857142857142856,5,3.0948275862068964
+264,22,1,Graduate,Germany,3.8,0,7.7,8,0,1,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.0714285714285716,5,3.681034482758621
+265,19,0,Undergraduate,Japan,3.3,0,8.3,8,0,1,3,False,False,False,True,False,False,False,False,False,False,False,False,7,2.1904761904761907,5,3.939655172413794
+266,21,1,Graduate,Italy,5.2,1,6.9,5,1,3,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.119047619047619,0,1.8362068965517242
+267,20,0,Undergraduate,South Korea,4.8,1,7.0,6,0,3,6,False,False,True,False,False,False,False,False,False,False,False,False,4,2.5,0,2.3793103448275863
+268,22,1,Graduate,Russia,4.3,0,7.7,7,1,2,5,False,False,False,False,False,False,False,False,True,False,False,False,5,2.2857142857142856,5,3.181034482758621
+269,19,0,Undergraduate,USA,6.4,1,5.7,4,0,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.5,0,0.8189655172413794
+270,21,1,Graduate,UK,5.2,1,6.4,6,1,3,7,True,False,False,False,False,False,False,False,False,False,False,False,3,2.3571428571428568,0,2.120689655172414
+271,20,0,Undergraduate,Australia,4.5,0,7.3,7,0,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.333333333333333,5,3.0086206896551726
+272,22,1,Graduate,Germany,3.7,0,7.8,8,1,1,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.047619047619048,5,3.724137931034483
+273,19,0,Undergraduate,Japan,3.2,0,8.4,8,0,1,3,False,False,False,True,False,False,False,False,False,False,False,False,7,2.166666666666667,5,3.9827586206896557
+274,21,1,Graduate,Italy,5.4,1,6.7,5,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.404761904761904,0,1.7500000000000004
+275,20,0,Undergraduate,South Korea,4.7,1,7.1,6,1,3,6,False,False,True,False,False,False,False,False,False,False,False,False,4,2.4761904761904763,0,2.4224137931034484
+276,22,1,Graduate,Russia,4.2,0,7.8,7,0,2,5,False,False,False,False,False,False,False,False,True,False,False,False,5,2.261904761904762,5,3.224137931034483
+277,19,0,Undergraduate,USA,6.6,1,5.5,4,1,4,9,False,False,False,False,False,False,True,False,False,False,False,False,1,2.5476190476190474,0,0.7327586206896552
+278,21,1,Graduate,UK,5.1,1,6.5,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.333333333333333,0,2.163793103448276
+279,20,0,Undergraduate,Australia,4.4,0,7.4,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.3095238095238093,5,3.0517241379310347
+280,22,1,Graduate,Germany,3.6,0,7.9,8,0,1,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.023809523809524,5,3.767241379310345
+281,19,0,Undergraduate,Japan,3.1,0,8.5,8,0,1,3,False,False,False,True,False,False,False,False,False,False,False,False,7,2.142857142857143,5,4.025862068965518
+282,21,1,Graduate,Italy,5.3,1,6.8,5,1,3,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.142857142857143,0,1.7931034482758623
+283,20,0,Undergraduate,South Korea,4.6,1,7.2,6,0,3,6,False,False,True,False,False,False,False,False,False,False,False,False,4,2.452380952380952,0,2.4655172413793105
+284,22,1,Graduate,Russia,4.1,0,7.9,7,1,2,5,False,False,False,False,False,False,False,False,True,False,False,False,5,2.238095238095238,5,3.267241379310345
+285,19,0,Undergraduate,USA,6.7,1,5.4,4,0,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.5714285714285716,0,0.6896551724137934
+286,21,1,Graduate,UK,5.0,1,6.6,6,1,3,7,True,False,False,False,False,False,False,False,False,False,False,False,3,2.3095238095238093,0,2.206896551724138
+287,20,0,Undergraduate,Australia,4.3,0,7.5,7,0,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.2857142857142856,5,3.0948275862068964
+288,22,1,Graduate,Germany,3.5,0,8.0,8,1,1,4,True,False,False,False,False,False,False,False,False,False,False,False,6,1.9999999999999998,5,3.8103448275862073
+289,19,0,Undergraduate,Japan,3.0,0,8.6,8,0,1,3,False,False,False,True,False,False,False,False,False,False,False,False,7,2.119047619047619,5,4.06896551724138
+290,21,1,Graduate,Italy,5.2,1,6.9,5,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.3571428571428568,0,1.8362068965517242
+291,20,0,Undergraduate,South Korea,4.5,1,7.3,6,1,3,6,False,False,True,False,False,False,False,False,False,False,False,False,4,2.4285714285714284,0,2.508620689655172
+292,22,1,Graduate,Russia,4.0,0,8.0,7,0,2,5,False,False,False,False,False,False,False,False,True,False,False,False,5,2.2142857142857144,5,3.310344827586207
+293,19,0,Undergraduate,USA,6.8,1,5.3,4,1,4,9,False,False,False,False,False,False,True,False,False,False,False,False,1,2.5952380952380953,0,0.646551724137931
+294,21,1,Graduate,UK,4.9,1,6.7,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.2857142857142856,0,2.2500000000000004
+295,20,0,Undergraduate,Australia,4.2,0,7.6,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.261904761904762,5,3.137931034482758
+296,22,1,Graduate,Germany,3.4,0,8.1,8,0,1,4,False,True,False,False,False,False,False,False,False,False,False,False,6,1.976190476190476,5,3.8534482758620694
+297,19,0,Undergraduate,Japan,2.9,0,8.7,8,0,1,3,False,False,False,True,False,False,False,False,False,False,False,False,7,2.0952380952380953,5,4.112068965517242
+298,21,1,Graduate,Italy,5.1,1,7.0,5,1,3,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.0952380952380953,0,1.879310344827586
+299,20,0,Undergraduate,South Korea,4.4,1,7.4,6,0,3,6,False,False,True,False,False,False,False,False,False,False,False,False,4,2.4047619047619047,0,2.551724137931035
+300,22,1,Graduate,Russia,3.9,0,8.1,7,1,2,5,False,False,False,False,False,False,False,False,True,False,False,False,5,2.1904761904761907,5,3.3534482758620685
+301,19,0,Undergraduate,USA,6.9,1,5.2,4,0,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.619047619047619,0,0.6034482758620692
+302,21,1,Graduate,UK,4.8,1,6.8,6,1,3,7,True,False,False,False,False,False,False,False,False,False,False,False,3,2.261904761904762,0,2.293103448275862
+303,20,0,Undergraduate,Australia,4.1,0,7.7,7,0,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.238095238095238,5,3.181034482758621
+304,22,1,Graduate,Germany,3.3,0,8.2,8,1,1,4,True,False,False,False,False,False,False,False,False,False,False,False,6,1.9523809523809523,5,3.896551724137931
+305,19,0,Undergraduate,Japan,2.8,0,8.8,8,0,1,3,False,False,False,True,False,False,False,False,False,False,False,False,7,2.0714285714285716,5,4.155172413793104
+306,21,1,Graduate,Italy,5.0,1,7.1,5,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.3095238095238093,0,1.9224137931034484
+307,20,0,Undergraduate,South Korea,4.3,1,7.5,6,1,3,6,False,False,True,False,False,False,False,False,False,False,False,False,4,2.380952380952381,0,2.594827586206897
+308,22,1,Graduate,Russia,3.8,0,8.2,7,0,2,5,False,False,False,False,False,False,False,False,True,False,False,False,5,2.166666666666667,5,3.3965517241379306
+309,19,0,Undergraduate,USA,7.0,1,5.1,4,1,4,9,False,False,False,False,False,False,True,False,False,False,False,False,1,2.642857142857143,0,0.5603448275862069
+310,21,1,Graduate,UK,4.7,1,6.9,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.238095238095238,0,2.336206896551724
+311,20,0,Undergraduate,Australia,4.0,0,7.8,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.2142857142857144,5,3.224137931034483
+312,22,1,Graduate,Germany,3.2,0,8.3,8,0,1,4,False,True,False,False,False,False,False,False,False,False,False,False,6,1.9285714285714286,5,3.939655172413794
+313,19,0,Undergraduate,Japan,2.7,0,8.9,8,0,1,3,False,False,False,True,False,False,False,False,False,False,False,False,7,2.047619047619048,5,4.198275862068966
+314,21,1,Graduate,Italy,4.9,1,7.2,5,1,3,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.047619047619048,0,1.9655172413793105
+315,20,0,Undergraduate,South Korea,4.2,1,7.6,6,0,3,6,False,False,True,False,False,False,False,False,False,False,False,False,4,2.357142857142857,0,2.637931034482759
+316,22,1,Graduate,Russia,3.7,0,8.3,7,1,2,5,False,False,False,False,False,False,False,False,True,False,False,False,5,2.1428571428571432,5,3.4396551724137936
+317,19,0,Undergraduate,USA,7.1,1,5.0,4,0,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.6666666666666665,0,0.5172413793103449
+318,21,1,Graduate,UK,4.6,1,7.0,6,1,3,7,True,False,False,False,False,False,False,False,False,False,False,False,3,2.214285714285714,0,2.3793103448275863
+319,20,0,Undergraduate,Australia,3.9,0,7.9,7,0,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.1904761904761907,5,3.267241379310345
+320,22,1,Graduate,Germany,3.1,0,8.4,8,1,1,4,True,False,False,False,False,False,False,False,False,False,False,False,6,1.9047619047619047,5,3.9827586206896557
+321,19,0,Undergraduate,Spain,5.2,1,6.8,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.3571428571428568,0,2.293103448275862
+322,21,1,Graduate,Denmark,4.1,0,7.8,8,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.4761904761904763,5,3.724137931034483
+323,20,0,Undergraduate,Ireland,5.0,1,7.0,7,0,3,6,False,True,False,False,False,False,False,False,False,False,False,False,4,2.547619047619048,0,2.879310344827586
+324,22,1,Graduate,India,5.8,1,6.5,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.595238095238095,0,1.6637931034482762
+325,19,0,Undergraduate,Switzerland,4.0,0,7.9,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.4523809523809526,5,3.767241379310345
+326,21,1,Graduate,Turkey,5.5,1,6.7,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.428571428571428,0,2.2500000000000004
+327,20,0,Undergraduate,USA,6.8,1,5.5,5,1,4,9,False,False,False,False,False,False,True,False,False,False,False,False,1,2.5952380952380953,0,1.2327586206896552
+328,22,1,Graduate,Mexico,5.6,1,6.6,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.4523809523809517,0,2.206896551724138
+329,19,0,Undergraduate,France,4.5,0,7.5,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.333333333333333,5,3.0948275862068964
+330,21,1,Graduate,Canada,5.3,1,6.9,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.3809523809523805,0,2.336206896551724
+331,20,0,Undergraduate,Spain,5.1,1,6.7,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.333333333333333,0,2.2500000000000004
+332,22,1,Graduate,Denmark,3.9,0,7.9,8,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.428571428571429,5,3.767241379310345
+333,19,0,Undergraduate,Ireland,4.8,1,7.1,7,0,3,6,False,True,False,False,False,False,False,False,False,False,False,False,4,2.5,0,2.9224137931034484
+334,21,1,Graduate,India,5.9,1,6.4,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.619047619047619,0,1.6206896551724141
+335,20,0,Undergraduate,Switzerland,3.8,0,8.0,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.404761904761905,5,3.8103448275862073
+336,22,1,Graduate,Turkey,5.4,1,6.8,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.404761904761904,0,2.293103448275862
+337,19,0,Undergraduate,USA,6.9,1,5.4,5,1,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.619047619047619,0,1.1896551724137934
+338,21,1,Graduate,Mexico,5.7,1,6.5,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.4761904761904763,0,2.163793103448276
+339,20,0,Undergraduate,France,4.4,0,7.6,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.3095238095238093,5,3.137931034482758
+340,22,1,Graduate,Canada,5.2,1,7.0,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.3571428571428568,0,2.3793103448275863
+341,19,0,Undergraduate,Spain,5.0,1,6.9,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.3095238095238093,0,2.336206896551724
+342,21,1,Graduate,Denmark,3.8,0,8.0,8,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.404761904761905,5,3.8103448275862073
+343,20,0,Undergraduate,Ireland,4.7,1,7.2,7,0,3,6,False,False,False,False,False,False,True,False,False,False,False,False,4,2.4761904761904763,0,2.9655172413793105
+344,22,1,Graduate,India,6.0,1,6.3,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.642857142857143,0,1.5775862068965518
+345,19,0,Undergraduate,Switzerland,3.7,0,8.1,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.3809523809523814,5,3.8534482758620694
+346,21,1,Graduate,Turkey,5.3,1,6.9,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.3809523809523805,0,2.336206896551724
+347,20,0,Undergraduate,USA,7.0,1,5.3,5,1,4,9,False,False,False,False,False,False,True,False,False,False,False,False,1,2.642857142857143,0,1.146551724137931
+348,22,1,Graduate,Mexico,5.8,1,6.4,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.5,0,2.120689655172414
+349,19,0,Undergraduate,France,4.3,0,7.7,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.2857142857142856,5,3.181034482758621
+350,21,1,Graduate,Canada,5.1,1,7.1,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.333333333333333,0,2.4224137931034484
+351,20,0,Undergraduate,Spain,4.9,1,7.0,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.2857142857142856,0,2.3793103448275863
+352,22,1,Graduate,Denmark,3.7,0,8.1,8,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.3809523809523814,5,3.8534482758620694
+353,19,0,Undergraduate,Ireland,4.6,1,7.3,7,0,3,6,False,True,False,False,False,False,False,False,False,False,False,False,4,2.452380952380952,0,3.0086206896551726
+354,21,1,Graduate,India,6.1,1,6.2,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.6666666666666665,0,1.53448275862069
+355,20,0,Undergraduate,Switzerland,3.6,0,8.2,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.3571428571428568,5,3.896551724137931
+356,22,1,Graduate,Turkey,5.2,1,7.0,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.3571428571428568,0,2.3793103448275863
+357,19,0,Undergraduate,USA,7.1,1,5.2,5,1,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.6666666666666665,0,1.1034482758620692
+358,21,1,Graduate,Mexico,5.9,1,6.3,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.5238095238095237,0,2.0775862068965516
+359,20,0,Undergraduate,France,4.2,0,7.8,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.261904761904762,5,3.224137931034483
+360,22,1,Graduate,Canada,5.0,1,7.2,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.3095238095238093,0,2.4655172413793105
+361,19,0,Undergraduate,Spain,4.8,1,7.1,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.261904761904762,0,2.4224137931034484
+362,21,1,Graduate,Denmark,3.6,0,8.2,8,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.3571428571428568,5,3.896551724137931
+363,20,0,Undergraduate,Ireland,4.5,1,7.4,7,0,3,6,False,False,False,False,False,False,True,False,False,False,False,False,4,2.4285714285714284,0,3.0517241379310347
+364,22,1,Graduate,India,6.2,1,6.1,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.6904761904761902,0,1.4913793103448274
+365,19,0,Undergraduate,Switzerland,3.5,0,8.3,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.333333333333333,5,3.939655172413794
+366,21,1,Graduate,Turkey,5.1,1,7.1,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.333333333333333,0,2.4224137931034484
+367,20,0,Undergraduate,USA,7.2,1,5.1,5,1,4,9,False,False,False,False,False,False,True,False,False,False,False,False,1,2.6904761904761902,0,1.0603448275862069
+368,22,1,Graduate,Mexico,6.0,1,6.2,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.5476190476190474,0,2.03448275862069
+369,19,0,Undergraduate,France,4.1,0,7.9,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.238095238095238,5,3.267241379310345
+370,21,1,Graduate,Canada,4.9,1,7.3,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.2857142857142856,0,2.508620689655172
+371,20,0,Undergraduate,Spain,4.7,1,7.2,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.238095238095238,0,2.4655172413793105
+372,22,1,Graduate,Denmark,3.5,0,8.3,8,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.333333333333333,5,3.939655172413794
+373,19,0,Undergraduate,Ireland,4.4,1,7.5,7,0,3,6,False,True,False,False,False,False,False,False,False,False,False,False,4,2.4047619047619047,0,3.0948275862068964
+374,21,1,Graduate,India,6.3,1,6.0,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.714285714285714,0,1.4482758620689657
+375,20,0,Undergraduate,Switzerland,3.4,0,8.4,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.3095238095238093,5,3.9827586206896557
+376,22,1,Graduate,Turkey,5.0,1,7.2,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.3095238095238093,0,2.4655172413793105
+377,19,0,Undergraduate,USA,7.3,1,5.0,5,1,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.714285714285714,0,1.017241379310345
+378,21,1,Graduate,Mexico,6.1,1,6.1,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.571428571428571,0,1.9913793103448274
+379,20,0,Undergraduate,France,4.0,0,8.0,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.2142857142857144,5,3.310344827586207
+380,22,1,Graduate,Canada,4.8,1,7.4,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.261904761904762,0,2.551724137931035
+381,19,0,Undergraduate,Spain,4.6,1,7.3,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.214285714285714,0,2.508620689655172
+382,21,1,Graduate,Denmark,3.4,0,8.4,8,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.3095238095238093,5,3.9827586206896557
+383,20,0,Undergraduate,Ireland,4.3,1,7.6,7,0,3,6,False,False,False,False,False,False,True,False,False,False,False,False,4,2.380952380952381,0,3.137931034482758
+384,22,1,Graduate,India,6.4,1,5.9,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.7380952380952377,0,1.4051724137931036
+385,19,0,Undergraduate,Switzerland,3.3,0,8.5,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.2857142857142856,5,4.025862068965518
+386,21,1,Graduate,Turkey,4.9,1,7.3,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.2857142857142856,0,2.508620689655172
+387,20,0,Undergraduate,USA,7.4,1,4.9,5,1,4,9,False,False,False,False,False,False,True,False,False,False,False,False,1,2.7380952380952377,0,0.9741379310344831
+388,22,1,Graduate,Mexico,6.2,1,6.0,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.595238095238095,0,1.9482758620689655
+389,19,0,Undergraduate,France,3.9,0,8.1,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.1904761904761907,5,3.3534482758620685
+390,21,1,Graduate,Canada,4.7,1,7.5,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.238095238095238,0,2.594827586206897
+391,20,0,Undergraduate,Spain,4.5,1,7.4,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.1904761904761902,0,2.551724137931035
+392,22,1,Graduate,Denmark,3.3,0,8.5,8,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.2857142857142856,5,4.025862068965518
+393,19,0,Undergraduate,Ireland,4.2,1,7.7,7,0,3,6,False,True,False,False,False,False,False,False,False,False,False,False,4,2.357142857142857,0,3.181034482758621
+394,21,1,Graduate,India,6.5,1,5.8,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.7619047619047614,0,1.3620689655172413
+395,20,0,Undergraduate,Switzerland,3.2,0,8.6,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.261904761904762,5,4.06896551724138
+396,22,1,Graduate,Turkey,4.8,1,7.4,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.261904761904762,0,2.551724137931035
+397,19,0,Undergraduate,USA,7.5,1,4.8,5,1,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.7619047619047614,0,0.9310344827586208
+398,21,1,Graduate,Mexico,6.3,1,5.9,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.6190476190476186,0,1.9051724137931036
+399,20,0,Undergraduate,France,3.8,0,8.2,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.166666666666667,5,3.3965517241379306
+400,22,1,Graduate,Canada,4.6,1,7.6,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.214285714285714,0,2.637931034482759
+401,19,0,Undergraduate,Spain,4.4,1,7.5,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.1666666666666665,0,2.594827586206897
+402,21,1,Graduate,Denmark,3.2,0,8.6,8,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.261904761904762,5,4.06896551724138
+403,20,0,Undergraduate,Ireland,4.1,1,7.8,7,0,3,6,False,False,False,False,False,False,True,False,False,False,False,False,4,2.333333333333333,0,3.224137931034483
+404,22,1,Graduate,India,6.6,1,5.7,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.785714285714285,0,1.3189655172413794
+405,19,0,Undergraduate,Switzerland,3.1,0,8.7,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.238095238095238,5,4.112068965517242
+406,21,1,Graduate,Turkey,4.7,1,7.5,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.238095238095238,0,2.594827586206897
+407,20,0,Undergraduate,USA,7.6,1,4.7,5,1,4,9,False,False,False,False,False,False,True,False,False,False,False,False,1,2.785714285714285,0,0.8879310344827587
+408,22,1,Graduate,Mexico,6.4,1,5.8,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.642857142857143,0,1.8620689655172415
+409,19,0,Undergraduate,France,3.7,0,8.3,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.1428571428571432,5,3.4396551724137936
+410,21,1,Graduate,Canada,4.5,1,7.7,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.1904761904761902,0,2.681034482758621
+411,20,0,Undergraduate,Spain,4.3,1,7.6,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.142857142857143,0,2.637931034482759
+412,22,1,Graduate,Denmark,3.1,0,8.7,8,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.238095238095238,5,4.112068965517242
+413,19,0,Undergraduate,Ireland,4.0,1,7.9,7,0,3,6,False,True,False,False,False,False,False,False,False,False,False,False,4,2.3095238095238093,0,3.267241379310345
+414,21,1,Graduate,India,6.7,1,5.6,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.8095238095238093,0,1.275862068965517
+415,20,0,Undergraduate,Switzerland,3.0,0,8.8,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.2142857142857144,5,4.155172413793104
+416,22,1,Graduate,Turkey,4.6,1,7.6,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.214285714285714,0,2.637931034482759
+417,19,0,Undergraduate,USA,7.7,1,4.6,5,1,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.80952380952381,0,0.8448275862068966
+418,21,1,Graduate,Mexico,6.5,1,5.7,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.6666666666666665,0,1.8189655172413794
+419,20,0,Undergraduate,France,3.6,0,8.4,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.119047619047619,5,3.4827586206896557
+420,22,1,Graduate,Canada,4.4,1,7.8,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.1666666666666665,0,2.7241379310344827
+421,19,0,Undergraduate,Spain,4.2,1,7.7,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.119047619047619,0,2.681034482758621
+422,21,1,Graduate,Denmark,3.0,0,8.8,8,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.2142857142857144,5,4.155172413793104
+423,20,0,Undergraduate,Ireland,3.9,1,8.0,7,0,3,6,False,False,False,False,False,False,True,False,False,False,False,False,4,2.2857142857142856,0,3.310344827586207
+424,22,1,Graduate,India,6.8,1,5.5,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.833333333333333,0,1.2327586206896552
+425,19,0,Undergraduate,Switzerland,2.9,0,8.9,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.1904761904761907,5,4.198275862068966
+426,21,1,Graduate,Turkey,4.5,1,7.7,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.1904761904761902,0,2.681034482758621
+427,20,0,Undergraduate,USA,7.8,1,4.5,5,1,4,9,False,False,False,False,False,False,True,False,False,False,False,False,1,2.833333333333334,0,0.8017241379310346
+428,22,1,Graduate,Mexico,6.6,1,5.6,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.6904761904761902,0,1.7758620689655171
+429,19,0,Undergraduate,France,3.5,0,8.5,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.0952380952380953,5,3.5258620689655173
+430,21,1,Graduate,Canada,4.3,1,7.9,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.142857142857143,0,2.767241379310345
+431,20,0,Undergraduate,Spain,4.1,1,7.8,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.0952380952380953,0,2.7241379310344827
+432,22,1,Graduate,Denmark,2.9,0,8.9,8,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.1904761904761907,5,4.198275862068966
+433,19,0,Undergraduate,Ireland,3.8,1,8.1,7,0,3,6,False,True,False,False,False,False,False,False,False,False,False,False,4,2.261904761904762,0,3.3534482758620685
+434,21,1,Graduate,India,6.9,1,5.4,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.8571428571428577,0,1.1896551724137934
+435,20,0,Undergraduate,Switzerland,2.8,0,9.0,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.166666666666667,5,4.241379310344827
+436,22,1,Graduate,Turkey,4.4,1,7.8,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.1666666666666665,0,2.7241379310344827
+437,19,0,Undergraduate,USA,7.9,1,4.4,5,1,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.8571428571428577,0,0.7586206896551727
+438,21,1,Graduate,Mexico,6.7,1,5.5,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.714285714285714,0,1.7327586206896552
+439,20,0,Undergraduate,France,3.4,0,8.6,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.0714285714285716,5,3.568965517241379
+440,22,1,Graduate,Canada,4.2,1,8.0,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.119047619047619,0,2.810344827586207
+441,19,0,Undergraduate,Spain,4.0,1,7.9,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.0714285714285716,0,2.767241379310345
+442,21,1,Graduate,Denmark,2.8,0,9.0,8,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.166666666666667,5,4.241379310344827
+443,20,0,Undergraduate,Ireland,3.7,1,8.2,7,0,3,6,False,False,False,False,False,False,True,False,False,False,False,False,4,2.238095238095238,0,3.3965517241379306
+444,22,1,Graduate,India,7.0,1,5.3,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.8809523809523814,0,1.146551724137931
+445,19,0,Undergraduate,Switzerland,2.7,0,9.1,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.1428571428571432,5,4.28448275862069
+446,21,1,Graduate,Turkey,4.3,1,7.9,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.142857142857143,0,2.767241379310345
+447,20,0,Undergraduate,USA,8.0,1,4.3,5,1,4,9,False,False,False,False,False,False,True,False,False,False,False,False,1,2.8809523809523814,0,0.7155172413793104
+448,22,1,Graduate,Mexico,6.8,1,5.4,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.7380952380952377,0,1.6896551724137934
+449,19,0,Undergraduate,France,3.3,0,8.7,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.047619047619048,5,3.612068965517241
+450,21,1,Graduate,Canada,4.1,1,8.1,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.0952380952380953,0,2.8534482758620694
+451,20,0,Undergraduate,Spain,3.9,1,8.0,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.047619047619048,0,2.810344827586207
+452,22,1,Graduate,Denmark,2.7,0,9.1,8,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.1428571428571432,5,4.28448275862069
+453,19,0,Undergraduate,Ireland,3.6,1,8.3,7,0,3,6,False,True,False,False,False,False,False,False,False,False,False,False,4,2.2142857142857144,0,3.4396551724137936
+454,21,1,Graduate,India,7.1,1,5.2,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.904761904761905,0,1.1034482758620692
+455,20,0,Undergraduate,Switzerland,2.6,0,9.2,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.119047619047619,5,4.327586206896552
+456,22,1,Graduate,Turkey,4.2,1,8.0,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.119047619047619,0,2.810344827586207
+457,19,0,Undergraduate,USA,8.1,1,4.2,5,1,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.904761904761905,0,0.6724137931034485
+458,21,1,Graduate,Mexico,6.9,1,5.3,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.7619047619047614,0,1.6465517241379313
+459,20,0,Undergraduate,France,3.2,0,8.8,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.023809523809524,5,3.655172413793104
+460,22,1,Graduate,Canada,4.0,1,8.2,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.0714285714285716,0,2.8965517241379315
+461,19,0,Undergraduate,Spain,3.8,1,8.1,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.023809523809524,0,2.8534482758620694
+462,21,1,Graduate,Denmark,2.6,0,9.2,8,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.119047619047619,5,4.327586206896552
+463,20,0,Undergraduate,Ireland,3.5,1,8.4,7,0,3,6,False,False,False,False,False,False,True,False,False,False,False,False,4,2.1904761904761907,0,3.4827586206896557
+464,22,1,Graduate,India,7.2,1,5.1,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.928571428571429,0,1.0603448275862069
+465,19,0,Undergraduate,Switzerland,2.5,0,9.3,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.0952380952380953,5,4.370689655172415
+466,21,1,Graduate,Turkey,4.1,1,8.1,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.0952380952380953,0,2.8534482758620694
+467,20,0,Undergraduate,USA,8.2,1,4.1,5,1,4,9,False,False,False,False,False,False,True,False,False,False,False,False,1,2.928571428571429,0,0.6293103448275862
+468,22,1,Graduate,Mexico,7.0,1,5.2,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.785714285714285,0,1.6034482758620692
+469,19,0,Undergraduate,France,3.1,0,8.9,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,1.9999999999999998,5,3.698275862068966
+470,21,1,Graduate,Canada,3.9,1,8.3,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.047619047619048,0,2.9396551724137936
+471,20,0,Undergraduate,Spain,3.7,1,8.2,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.0000000000000004,0,2.8965517241379315
+472,22,1,Graduate,Denmark,2.5,0,9.3,8,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.0952380952380953,5,4.370689655172415
+473,19,0,Undergraduate,Ireland,3.4,1,8.5,7,0,3,6,False,True,False,False,False,False,False,False,False,False,False,False,4,2.166666666666667,0,3.5258620689655173
+474,21,1,Graduate,India,7.3,1,5.0,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.9523809523809526,0,1.017241379310345
+475,20,0,Undergraduate,Switzerland,2.4,0,9.4,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.0714285714285716,5,4.413793103448277
+476,22,1,Graduate,Turkey,4.0,1,8.2,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.0714285714285716,0,2.8965517241379315
+477,19,0,Undergraduate,USA,8.3,1,4.0,5,1,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.9523809523809526,0,0.5862068965517243
+478,21,1,Graduate,Mexico,7.1,1,5.1,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.809523809523809,0,1.5603448275862069
+479,20,0,Undergraduate,France,3.0,0,9.0,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,1.976190476190476,5,3.741379310344828
+480,22,1,Graduate,Canada,3.8,1,8.4,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.023809523809524,0,2.9827586206896557
+481,19,0,Undergraduate,Spain,3.6,1,8.3,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,1.9761904761904758,0,2.9396551724137936
+482,21,1,Graduate,Denmark,2.4,0,9.4,8,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.0714285714285716,5,4.413793103448277
+483,20,0,Undergraduate,Ireland,3.3,1,8.6,7,0,3,6,False,False,False,False,False,False,True,False,False,False,False,False,4,2.142857142857143,0,3.568965517241379
+484,22,1,Graduate,India,7.4,1,4.9,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.9761904761904763,0,0.9741379310344831
+485,19,0,Undergraduate,Switzerland,2.3,0,9.5,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.047619047619048,5,4.456896551724138
+486,21,1,Graduate,Turkey,3.9,1,8.3,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.047619047619048,0,2.9396551724137936
+487,20,0,Undergraduate,USA,8.4,1,3.9,5,1,4,9,False,False,False,False,False,False,True,False,False,False,False,False,1,2.9761904761904763,0,0.5431034482758621
+488,22,1,Graduate,Mexico,7.2,1,5.0,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.8333333333333326,0,1.5172413793103452
+489,19,0,Undergraduate,France,2.9,0,9.1,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,1.952380952380952,5,3.7844827586206895
+490,21,1,Graduate,Canada,3.7,1,8.5,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.0000000000000004,0,3.0258620689655173
+491,20,0,Undergraduate,Spain,3.5,1,8.4,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,1.952380952380952,0,2.9827586206896557
+492,22,1,Graduate,Denmark,2.3,0,9.5,8,1,2,4,True,False,False,False,False,False,False,False,False,False,False,False,6,2.047619047619048,5,4.456896551724138
+493,19,0,Undergraduate,Ireland,3.2,1,8.7,7,0,3,6,False,True,False,False,False,False,False,False,False,False,False,False,4,2.119047619047619,0,3.612068965517241
+494,21,1,Graduate,India,7.5,1,4.8,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,3.0,0,0.9310344827586208
+495,20,0,Undergraduate,Switzerland,2.2,0,9.6,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.023809523809524,5,4.5
+496,22,1,Graduate,Turkey,3.8,1,8.4,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.023809523809524,0,2.9827586206896557
+497,19,0,Undergraduate,USA,8.5,1,3.8,5,1,4,9,False,True,False,False,False,False,False,False,False,False,False,False,1,3.0,0,0.5
+498,21,1,Graduate,Mexico,7.3,1,4.9,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.8571428571428563,0,1.474137931034483
+499,20,0,Undergraduate,France,2.8,0,9.2,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,1.9285714285714284,5,3.8275862068965516
+500,22,1,Graduate,Canada,3.6,1,8.6,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,1.9761904761904758,0,3.0689655172413794
+501,19,0,Undergraduate,Brazil,6.2,1,6.3,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.595238095238095,0,2.0775862068965516
+502,21,1,Graduate,China,4.5,0,7.8,7,1,2,5,False,False,False,False,False,False,False,False,False,True,False,False,5,2.333333333333333,5,3.224137931034483
+503,20,0,Undergraduate,Netherlands,3.8,0,8.2,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.404761904761905,5,3.896551724137931
+504,22,1,Graduate,New Zealand,4.7,1,7.5,7,1,3,6,False,True,False,False,False,False,False,False,False,False,False,False,4,2.4761904761904763,0,3.0948275862068964
+505,19,0,Undergraduate,Singapore,5.1,1,7.0,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.333333333333333,0,2.3793103448275863
+506,21,1,Graduate,Malaysia,5.5,1,6.8,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.428571428571428,0,2.293103448275862
+507,20,0,Undergraduate,UAE,6.5,1,6.5,5,1,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.7619047619047614,0,1.6637931034482762
+508,22,1,Graduate,Poland,4.2,0,7.9,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.261904761904762,5,3.267241379310345
+509,19,0,Undergraduate,India,6.8,1,6.0,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.833333333333333,0,1.4482758620689657
+510,21,1,Graduate,Canada,4.8,1,7.4,7,0,3,6,False,True,False,False,False,False,False,False,False,False,False,False,4,2.5,0,3.0517241379310347
+511,20,0,Undergraduate,Brazil,6.1,1,6.4,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.571428571428571,0,2.120689655172414
+512,22,1,Graduate,China,4.4,0,7.9,7,1,2,5,False,False,False,False,False,False,False,False,False,True,False,False,5,2.3095238095238093,5,3.267241379310345
+513,19,0,Undergraduate,Netherlands,3.7,0,8.3,8,0,2,4,False,False,False,False,False,False,True,False,False,False,False,False,6,2.3809523809523814,5,3.939655172413794
+514,21,1,Graduate,New Zealand,4.6,1,7.6,7,1,3,6,False,True,False,False,False,False,False,False,False,False,False,False,4,2.452380952380952,0,3.137931034482758
+515,20,0,Undergraduate,Singapore,5.2,1,6.9,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.3571428571428568,0,2.336206896551724
+516,22,1,Graduate,Malaysia,5.6,1,6.7,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.4523809523809517,0,2.2500000000000004
+517,19,0,Undergraduate,UAE,6.6,1,6.4,5,1,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.785714285714285,0,1.6206896551724141
+518,21,1,Graduate,Poland,4.1,0,8.0,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.238095238095238,5,3.310344827586207
+519,20,0,Undergraduate,India,6.9,1,5.9,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.8571428571428577,0,1.4051724137931036
+520,22,1,Graduate,Canada,4.7,1,7.5,7,0,3,6,False,False,False,False,False,False,True,False,False,False,False,False,4,2.4761904761904763,0,3.0948275862068964
+521,19,0,Undergraduate,Brazil,6.0,1,6.5,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.5476190476190474,0,2.163793103448276
+522,21,1,Graduate,China,4.3,0,8.0,7,1,2,5,False,False,False,False,False,False,False,False,False,True,False,False,5,2.2857142857142856,5,3.310344827586207
+523,20,0,Undergraduate,Netherlands,3.6,0,8.4,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.3571428571428568,5,3.9827586206896557
+524,22,1,Graduate,New Zealand,4.5,1,7.7,7,1,3,6,True,False,False,False,False,False,False,False,False,False,False,False,4,2.4285714285714284,0,3.181034482758621
+525,19,0,Undergraduate,Singapore,5.3,1,6.8,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.3809523809523805,0,2.293103448275862
+526,21,1,Graduate,Malaysia,5.7,1,6.6,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.4761904761904763,0,2.206896551724138
+527,20,0,Undergraduate,UAE,6.7,1,6.3,5,1,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.8095238095238093,0,1.5775862068965518
+528,22,1,Graduate,Poland,4.0,0,8.1,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.2142857142857144,5,3.3534482758620685
+529,19,0,Undergraduate,India,7.0,1,5.8,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.8809523809523814,0,1.3620689655172413
+530,21,1,Graduate,Canada,4.6,1,7.6,7,0,3,6,False,True,False,False,False,False,False,False,False,False,False,False,4,2.452380952380952,0,3.137931034482758
+531,20,0,Undergraduate,Brazil,5.9,1,6.6,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.5238095238095237,0,2.206896551724138
+532,22,1,Graduate,China,4.2,0,8.1,7,1,2,5,False,False,False,False,False,False,False,False,False,True,False,False,5,2.261904761904762,5,3.3534482758620685
+533,19,0,Undergraduate,Netherlands,3.5,0,8.5,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.333333333333333,5,4.025862068965518
+534,21,1,Graduate,New Zealand,4.4,1,7.8,7,1,3,6,True,False,False,False,False,False,False,False,False,False,False,False,4,2.4047619047619047,0,3.224137931034483
+535,20,0,Undergraduate,Singapore,5.4,1,6.7,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.404761904761904,0,2.2500000000000004
+536,22,1,Graduate,Malaysia,5.8,1,6.5,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.5,0,2.163793103448276
+537,19,0,Undergraduate,UAE,6.8,1,6.2,5,1,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.833333333333333,0,1.53448275862069
+538,21,1,Graduate,Poland,3.9,0,8.2,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.1904761904761907,5,3.3965517241379306
+539,20,0,Undergraduate,India,7.1,1,5.7,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.904761904761905,0,1.3189655172413794
+540,22,1,Graduate,Canada,4.5,1,7.7,7,0,3,6,False,False,False,False,False,False,True,False,False,False,False,False,4,2.4285714285714284,0,3.181034482758621
+541,19,0,Undergraduate,Brazil,5.8,1,6.7,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.5,0,2.2500000000000004
+542,21,1,Graduate,China,4.1,0,8.2,7,1,2,5,False,False,False,False,False,False,False,False,False,True,False,False,5,2.238095238095238,5,3.3965517241379306
+543,20,0,Undergraduate,Netherlands,3.4,0,8.6,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.3095238095238093,5,4.06896551724138
+544,22,1,Graduate,New Zealand,4.3,1,7.9,7,1,3,6,False,True,False,False,False,False,False,False,False,False,False,False,4,2.380952380952381,0,3.267241379310345
+545,19,0,Undergraduate,Singapore,5.5,1,6.6,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.428571428571428,0,2.206896551724138
+546,21,1,Graduate,Malaysia,5.9,1,6.4,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.5238095238095237,0,2.120689655172414
+547,20,0,Undergraduate,UAE,6.9,1,6.1,5,1,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.8571428571428577,0,1.4913793103448274
+548,22,1,Graduate,Poland,3.8,0,8.3,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.166666666666667,5,3.4396551724137936
+549,19,0,Undergraduate,India,7.2,1,5.6,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.928571428571429,0,1.275862068965517
+550,21,1,Graduate,Canada,4.4,1,7.8,7,0,3,6,False,True,False,False,False,False,False,False,False,False,False,False,4,2.4047619047619047,0,3.224137931034483
+551,20,0,Undergraduate,Brazil,5.7,1,6.8,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.4761904761904763,0,2.293103448275862
+552,22,1,Graduate,China,4.0,0,8.3,7,1,2,5,False,False,False,False,False,False,False,False,False,True,False,False,5,2.2142857142857144,5,3.4396551724137936
+553,19,0,Undergraduate,Netherlands,3.3,0,8.7,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.2857142857142856,5,4.112068965517242
+554,21,1,Graduate,New Zealand,4.2,1,8.0,7,1,3,6,True,False,False,False,False,False,False,False,False,False,False,False,4,2.357142857142857,0,3.310344827586207
+555,20,0,Undergraduate,Singapore,5.6,1,6.5,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.4523809523809517,0,2.163793103448276
+556,22,1,Graduate,Malaysia,6.0,1,6.3,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.5476190476190474,0,2.0775862068965516
+557,19,0,Undergraduate,UAE,7.0,1,6.0,5,1,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.8809523809523814,0,1.4482758620689657
+558,21,1,Graduate,Poland,3.7,0,8.4,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.1428571428571432,5,3.4827586206896557
+559,20,0,Undergraduate,India,7.3,1,5.5,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.9523809523809526,0,1.2327586206896552
+560,22,1,Graduate,Canada,4.3,1,7.9,7,0,3,6,False,False,False,False,False,False,True,False,False,False,False,False,4,2.380952380952381,0,3.267241379310345
+561,19,0,Undergraduate,Brazil,5.6,1,6.9,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.4523809523809517,0,2.336206896551724
+562,21,1,Graduate,China,3.9,0,8.4,7,1,2,5,False,False,False,False,False,False,False,False,False,True,False,False,5,2.1904761904761907,5,3.4827586206896557
+563,20,0,Undergraduate,Netherlands,3.2,0,8.8,8,0,2,4,False,True,False,False,False,False,False,False,False,False,False,False,6,2.261904761904762,5,4.155172413793104
+564,22,1,Graduate,New Zealand,4.1,1,8.1,7,1,3,6,False,True,False,False,False,False,False,False,False,False,False,False,4,2.333333333333333,0,3.3534482758620685
+565,19,0,Undergraduate,Singapore,5.7,1,6.4,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.4761904761904763,0,2.120689655172414
+566,21,1,Graduate,Malaysia,6.1,1,6.2,6,0,3,7,False,False,False,False,False,False,False,False,False,False,True,False,3,2.571428571428571,0,2.03448275862069
+567,20,0,Undergraduate,UAE,7.1,1,5.9,5,1,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.904761904761905,0,1.4051724137931036
+568,22,1,Graduate,Poland,3.6,0,8.5,7,0,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.119047619047619,5,3.5258620689655173
+569,19,0,Undergraduate,India,7.4,1,5.4,5,1,4,8,False,False,False,False,False,False,False,False,False,False,True,False,2,2.9761904761904763,0,1.1896551724137934
+570,21,1,Graduate,Canada,4.2,1,8.0,7,0,3,6,False,True,False,False,False,False,False,False,False,False,False,False,4,2.357142857142857,0,3.310344827586207
+571,20,0,Undergraduate,Spain,6.1,1,7.2,5,0,4,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.904761904761905,0,1.9655172413793105
+572,23,1,Graduate,Denmark,3.8,0,7.8,8,1,2,4,False,False,False,False,False,False,False,True,False,False,False,False,6,2.404761904761905,5,3.724137931034483
+573,19,0,Undergraduate,Ireland,5.5,1,6.8,6,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.5238095238095237,0,2.293103448275862
+574,22,1,Graduate,India,7.2,1,5.9,4,0,5,9,True,False,False,False,False,False,False,False,False,False,False,False,1,3.0238095238095237,0,0.9051724137931038
+575,21,0,Undergraduate,Switzerland,4.2,0,7.5,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.261904761904762,5,3.0948275862068964
+576,24,1,Graduate,Turkey,6.8,1,6.2,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.833333333333333,0,1.53448275862069
+577,20,0,Undergraduate,USA,5.9,1,6.7,6,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.5238095238095237,0,2.2500000000000004
+578,22,1,Graduate,Mexico,6.5,1,6.1,5,0,4,8,True,False,False,False,False,False,False,False,False,False,False,False,2,2.7619047619047614,0,1.4913793103448274
+579,19,0,Undergraduate,France,4.7,0,7.4,7,0,2,5,False,False,False,False,False,False,False,True,False,False,False,False,5,2.380952380952381,5,3.0517241379310347
+580,23,1,Graduate,Canada,5.2,1,7.0,6,1,3,6,False,True,False,False,False,False,False,False,False,False,False,False,4,2.5952380952380953,0,2.3793103448275863
+581,21,0,Undergraduate,UK,6.3,1,6.4,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.714285714285714,0,1.6206896551724141
+582,24,1,Graduate,Italy,4.9,0,7.3,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.428571428571429,5,3.0086206896551726
+583,20,0,Undergraduate,Russia,6.7,1,6.0,5,0,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.8095238095238093,0,1.4482758620689657
+584,22,1,Graduate,China,5.8,1,6.5,6,1,3,7,False,False,False,False,False,False,False,False,False,True,False,False,3,2.5,0,2.163793103448276
+585,19,0,Undergraduate,Japan,4.5,0,7.6,8,0,2,4,False,False,False,False,False,False,False,True,False,False,False,False,6,2.571428571428571,5,3.637931034482759
+586,23,1,Graduate,Poland,6.4,1,6.3,5,0,4,8,True,False,False,False,False,False,False,False,False,False,False,False,2,2.7380952380952377,0,1.5775862068965518
+587,21,0,Undergraduate,Finland,4.1,0,7.7,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.238095238095238,5,3.181034482758621
+588,24,1,Graduate,Spain,6.6,1,6.2,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.785714285714285,0,1.53448275862069
+589,20,0,Undergraduate,Denmark,4.4,0,7.4,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.3095238095238093,5,3.0517241379310347
+590,22,1,Graduate,Ireland,5.7,1,6.8,6,0,3,7,False,False,False,False,False,False,False,True,False,False,False,False,3,2.4761904761904763,0,2.293103448275862
+591,19,0,Undergraduate,India,7.0,1,5.8,4,0,5,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.9761904761904763,0,0.8620689655172414
+592,23,1,Graduate,Switzerland,4.3,0,7.5,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.2857142857142856,5,3.0948275862068964
+593,21,0,Undergraduate,Turkey,6.9,1,6.1,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.8571428571428577,0,1.4913793103448274
+594,24,1,Graduate,USA,5.6,1,6.9,6,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.4523809523809517,0,2.336206896551724
+595,20,0,Undergraduate,Mexico,6.2,1,6.3,5,0,4,8,True,False,False,False,False,False,False,False,False,False,False,False,2,2.6904761904761902,0,1.5775862068965518
+596,21,1,Undergraduate,France,5.8,1,6.7,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.5,0,2.2500000000000004
+597,23,0,Graduate,Canada,4.9,0,7.3,7,1,2,5,False,False,False,False,False,False,True,False,False,False,False,False,5,2.428571428571429,5,3.0086206896551726
+598,20,1,Undergraduate,UK,6.4,1,6.2,5,0,4,8,True,False,False,False,False,False,False,False,False,False,False,False,2,2.7380952380952377,0,1.53448275862069
+599,22,0,Graduate,Italy,5.1,0,7.1,7,1,2,5,False,False,False,False,False,False,False,True,False,False,False,False,5,2.4761904761904763,5,2.9224137931034484
+600,19,1,Undergraduate,Russia,6.7,1,6.0,4,0,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.8095238095238093,0,0.9482758620689656
+601,24,0,Graduate,China,5.5,1,6.8,6,1,3,7,False,False,False,False,False,False,False,False,False,True,False,False,3,2.428571428571428,0,2.293103448275862
+602,21,1,Undergraduate,Japan,4.3,0,7.6,8,0,2,4,False,False,False,False,False,False,False,True,False,False,False,False,6,2.5238095238095237,5,3.637931034482759
+603,23,0,Graduate,Poland,6.2,1,6.4,5,0,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.6904761904761902,0,1.6206896551724141
+604,20,1,Undergraduate,Finland,4.5,0,7.4,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.333333333333333,5,3.0517241379310347
+605,22,0,Graduate,Spain,6.3,1,6.3,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.714285714285714,0,1.5775862068965518
+606,19,1,Undergraduate,Denmark,4.7,0,7.2,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.380952380952381,5,2.9655172413793105
+607,24,0,Graduate,Ireland,5.9,1,6.6,6,0,3,7,False,False,False,False,False,False,False,True,False,False,False,False,3,2.5238095238095237,0,2.206896551724138
+608,21,1,Undergraduate,India,7.1,1,5.7,4,0,5,9,True,False,False,False,False,False,False,False,False,False,False,False,1,3.0,0,0.8189655172413794
+609,23,0,Graduate,Switzerland,4.4,0,7.4,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.3095238095238093,5,3.0517241379310347
+610,20,1,Undergraduate,Turkey,6.6,1,6.2,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.785714285714285,0,1.53448275862069
+611,22,0,Graduate,USA,5.4,1,6.9,6,1,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.404761904761904,0,2.336206896551724
+612,19,1,Undergraduate,Mexico,6.5,1,6.1,5,0,4,8,True,False,False,False,False,False,False,False,False,False,False,False,2,2.7619047619047614,0,1.4913793103448274
+613,24,0,Graduate,France,4.8,0,7.3,7,1,2,5,False,False,False,False,False,False,False,True,False,False,False,False,5,2.4047619047619047,5,3.0086206896551726
+614,21,1,Undergraduate,Canada,5.7,1,6.7,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.4761904761904763,0,2.2500000000000004
+615,23,0,Graduate,UK,6.1,1,6.4,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.6666666666666665,0,1.6206896551724141
+616,20,1,Undergraduate,Italy,4.6,0,7.2,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.3571428571428568,5,2.9655172413793105
+617,22,0,Graduate,Russia,6.8,1,5.9,4,0,5,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.928571428571429,0,0.9051724137931038
+618,19,1,Undergraduate,China,5.6,1,6.8,6,1,3,7,False,False,False,False,False,False,False,False,False,True,False,False,3,2.4523809523809517,0,2.293103448275862
+619,24,0,Graduate,Japan,4.2,0,7.5,8,0,2,4,False,False,False,False,False,False,False,True,False,False,False,False,6,2.5,5,3.594827586206897
+620,21,1,Undergraduate,Poland,6.3,1,6.3,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.714285714285714,0,1.5775862068965518
+621,23,0,Graduate,Finland,4.4,0,7.4,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.3095238095238093,5,3.0517241379310347
+622,20,1,Undergraduate,Spain,6.5,1,6.2,5,0,4,8,True,False,False,False,False,False,False,False,False,False,False,False,2,2.7619047619047614,0,1.53448275862069
+623,22,0,Graduate,Denmark,4.6,0,7.3,7,1,2,5,False,False,False,False,False,False,False,True,False,False,False,False,5,2.3571428571428568,5,3.0086206896551726
+624,19,1,Undergraduate,Ireland,5.8,1,6.6,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.5,0,2.206896551724138
+625,24,0,Graduate,India,7.0,1,5.8,4,0,5,9,False,False,False,False,False,False,True,False,False,False,False,False,1,2.9761904761904763,0,0.8620689655172414
+626,21,1,Undergraduate,Switzerland,4.5,0,7.3,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.333333333333333,5,3.0086206896551726
+627,23,0,Graduate,Turkey,6.7,1,6.1,5,0,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.8095238095238093,0,1.4913793103448274
+628,20,1,Undergraduate,USA,5.5,1,6.8,6,1,3,7,False,False,False,False,False,False,False,True,False,False,False,False,3,2.428571428571428,0,2.293103448275862
+629,22,0,Graduate,Mexico,6.4,1,6.2,5,0,4,8,True,False,False,False,False,False,False,False,False,False,False,False,2,2.7380952380952377,0,1.53448275862069
+630,19,1,Undergraduate,France,4.7,0,7.2,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.380952380952381,5,2.9655172413793105
+631,24,0,Graduate,Canada,5.6,1,6.7,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.4523809523809517,0,2.2500000000000004
+632,21,1,Undergraduate,UK,6.2,1,6.3,5,0,4,8,True,False,False,False,False,False,False,False,False,False,False,False,2,2.6904761904761902,0,1.5775862068965518
+633,23,0,Graduate,Italy,4.8,0,7.1,7,1,2,5,False,False,False,False,False,False,False,True,False,False,False,False,5,2.4047619047619047,5,2.9224137931034484
+634,20,1,Undergraduate,Russia,6.9,1,5.9,4,0,5,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.9523809523809526,0,0.9051724137931038
+635,22,0,Graduate,China,5.7,1,6.7,6,1,3,7,False,False,False,False,False,False,False,False,False,True,False,False,3,2.4761904761904763,0,2.2500000000000004
+636,19,1,Undergraduate,Japan,4.4,0,7.4,8,0,2,4,False,False,False,False,False,False,False,True,False,False,False,False,6,2.5476190476190474,5,3.5517241379310347
+637,24,0,Graduate,Poland,6.1,1,6.4,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.6666666666666665,0,1.6206896551724141
+638,21,1,Undergraduate,Finland,4.3,0,7.5,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.2857142857142856,5,3.0948275862068964
+639,23,0,Graduate,Spain,6.4,1,6.2,5,0,4,8,True,False,False,False,False,False,False,False,False,False,False,False,2,2.7380952380952377,0,1.53448275862069
+640,20,1,Undergraduate,Denmark,4.5,0,7.3,7,1,2,5,False,False,False,False,False,False,False,True,False,False,False,False,5,2.333333333333333,5,3.0086206896551726
+641,22,0,Graduate,Ireland,5.9,1,6.5,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.5238095238095237,0,2.163793103448276
+642,19,1,Undergraduate,India,7.2,1,5.7,4,0,5,9,False,False,False,False,False,False,True,False,False,False,False,False,1,3.0238095238095237,0,0.8189655172413794
+643,24,0,Graduate,Switzerland,4.6,0,7.2,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.3571428571428568,5,2.9655172413793105
+644,21,1,Undergraduate,Turkey,6.8,1,6.0,5,0,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.833333333333333,0,1.4482758620689657
+645,23,0,Graduate,USA,5.3,1,6.8,6,1,3,7,False,False,False,False,False,False,False,True,False,False,False,False,3,2.3809523809523805,0,2.293103448275862
+646,22,1,Graduate,Mexico,6.3,1,6.2,5,0,4,8,True,False,False,False,False,False,False,False,False,False,False,False,2,2.714285714285714,0,1.53448275862069
+647,20,0,Undergraduate,France,4.8,0,7.1,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.4047619047619047,5,2.9224137931034484
+648,23,1,Graduate,Canada,5.7,1,6.6,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.4761904761904763,0,2.206896551724138
+649,21,0,Undergraduate,UK,6.2,1,6.3,5,0,4,8,False,False,False,False,False,False,False,True,False,False,False,False,2,2.6904761904761902,0,1.5775862068965518
+650,24,1,Graduate,Italy,4.7,0,7.2,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.380952380952381,5,2.9655172413793105
+651,19,0,Undergraduate,Russia,6.8,1,5.9,4,0,5,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.928571428571429,0,0.9051724137931038
+652,22,1,Graduate,China,5.6,1,6.7,6,1,3,7,False,False,False,False,False,False,False,False,False,True,False,False,3,2.4523809523809517,0,2.2500000000000004
+653,20,0,Undergraduate,Japan,4.3,0,7.5,8,0,2,4,False,False,False,False,False,False,False,True,False,False,False,False,6,2.5238095238095237,5,3.594827586206897
+654,23,1,Graduate,Poland,6.2,1,6.3,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.6904761904761902,0,1.5775862068965518
+655,21,0,Undergraduate,Finland,4.4,0,7.4,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.3095238095238093,5,3.0517241379310347
+656,24,1,Graduate,Spain,6.5,1,6.1,5,0,4,8,True,False,False,False,False,False,False,False,False,False,False,False,2,2.7619047619047614,0,1.4913793103448274
+657,19,0,Undergraduate,Denmark,4.6,0,7.3,7,1,2,5,False,False,False,False,False,False,False,True,False,False,False,False,5,2.3571428571428568,5,3.0086206896551726
+658,22,1,Graduate,Ireland,5.8,1,6.6,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.5,0,2.206896551724138
+659,20,0,Undergraduate,India,7.1,1,5.8,4,0,5,9,False,False,False,False,False,False,True,False,False,False,False,False,1,3.0,0,0.8620689655172414
+660,23,1,Graduate,Switzerland,4.5,0,7.3,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.333333333333333,5,3.0086206896551726
+661,21,0,Undergraduate,Turkey,6.7,1,6.0,5,0,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.8095238095238093,0,1.4482758620689657
+662,24,1,Graduate,USA,5.4,1,6.8,6,1,3,7,False,False,False,False,False,False,False,True,False,False,False,False,3,2.404761904761904,0,2.293103448275862
+663,19,0,Undergraduate,Mexico,6.4,1,6.2,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.7380952380952377,0,1.53448275862069
+664,22,1,Graduate,France,4.7,0,7.2,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.380952380952381,5,2.9655172413793105
+665,20,0,Undergraduate,Canada,5.6,1,6.7,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.4523809523809517,0,2.2500000000000004
+666,23,1,Graduate,UK,6.3,1,6.2,5,0,4,8,False,False,False,False,False,False,False,True,False,False,False,False,2,2.714285714285714,0,1.53448275862069
+667,21,0,Undergraduate,Italy,4.8,0,7.1,7,1,2,5,False,False,False,False,False,False,True,False,False,False,False,False,5,2.4047619047619047,5,2.9224137931034484
+668,24,1,Graduate,Russia,6.9,1,5.9,4,0,5,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.9523809523809526,0,0.9051724137931038
+669,19,0,Undergraduate,China,5.7,1,6.7,6,1,3,7,False,False,False,False,False,False,False,False,False,True,False,False,3,2.4761904761904763,0,2.2500000000000004
+670,22,1,Graduate,Japan,4.4,0,7.4,8,0,2,4,False,False,False,False,False,False,False,True,False,False,False,False,6,2.5476190476190474,5,3.5517241379310347
+671,20,0,Undergraduate,Poland,6.1,1,6.4,5,0,4,8,True,False,False,False,False,False,False,False,False,False,False,False,2,2.6666666666666665,0,1.6206896551724141
+672,23,1,Graduate,Finland,4.3,0,7.5,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.2857142857142856,5,3.0948275862068964
+673,21,0,Undergraduate,Spain,6.4,1,6.2,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.7380952380952377,0,1.53448275862069
+674,24,1,Graduate,Denmark,4.5,0,7.3,7,1,2,5,False,False,False,False,False,False,False,True,False,False,False,False,5,2.333333333333333,5,3.0086206896551726
+675,19,0,Undergraduate,Ireland,5.9,1,6.5,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.5238095238095237,0,2.163793103448276
+676,22,1,Graduate,India,7.2,1,5.7,4,0,5,9,True,False,False,False,False,False,False,False,False,False,False,False,1,3.0238095238095237,0,0.8189655172413794
+677,20,0,Undergraduate,Switzerland,4.6,0,7.2,7,1,2,5,False,False,False,False,False,False,True,False,False,False,False,False,5,2.3571428571428568,5,2.9655172413793105
+678,23,1,Graduate,Turkey,6.8,1,6.0,5,0,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.833333333333333,0,1.4482758620689657
+679,21,0,Undergraduate,USA,5.3,1,6.8,6,1,3,7,False,False,False,False,False,False,False,True,False,False,False,False,3,2.3809523809523805,0,2.293103448275862
+680,24,1,Graduate,Mexico,6.2,1,6.3,5,0,4,8,True,False,False,False,False,False,False,False,False,False,False,False,2,2.6904761904761902,0,1.5775862068965518
+681,19,0,Undergraduate,France,4.7,0,7.2,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.380952380952381,5,2.9655172413793105
+682,22,1,Graduate,Canada,5.8,1,6.6,6,0,3,7,False,False,False,False,False,False,True,False,False,False,False,False,3,2.5,0,2.206896551724138
+683,20,0,Undergraduate,UK,6.1,1,6.4,5,0,4,8,False,False,False,False,False,False,False,True,False,False,False,False,2,2.6666666666666665,0,1.6206896551724141
+684,23,1,Graduate,Italy,4.8,0,7.1,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.4047619047619047,5,2.9224137931034484
+685,21,0,Undergraduate,Russia,6.7,1,6.0,4,0,5,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.904761904761905,0,0.9482758620689656
+686,24,1,Graduate,China,5.5,1,6.8,6,1,3,7,False,False,False,False,False,False,False,False,False,True,False,False,3,2.428571428571428,0,2.293103448275862
+687,19,0,Undergraduate,Japan,4.2,0,7.5,8,0,2,4,False,False,False,False,False,False,False,True,False,False,False,False,6,2.5,5,3.594827586206897
+688,22,1,Graduate,Poland,6.3,1,6.2,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.714285714285714,0,1.53448275862069
+689,20,0,Undergraduate,Finland,4.4,0,7.4,7,1,2,5,False,True,False,False,False,False,False,False,False,False,False,False,5,2.3095238095238093,5,3.0517241379310347
+690,23,1,Graduate,Spain,6.5,1,6.1,5,0,4,8,True,False,False,False,False,False,False,False,False,False,False,False,2,2.7619047619047614,0,1.4913793103448274
+691,21,0,Undergraduate,Denmark,4.6,0,7.3,7,1,2,5,False,False,False,False,False,False,False,True,False,False,False,False,5,2.3571428571428568,5,3.0086206896551726
+692,24,1,Graduate,Ireland,5.9,1,6.5,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.5238095238095237,0,2.163793103448276
+693,19,0,Undergraduate,India,7.0,1,5.8,4,0,5,9,False,False,False,False,False,False,True,False,False,False,False,False,1,2.9761904761904763,0,0.8620689655172414
+694,22,1,Graduate,Switzerland,4.5,0,7.3,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.333333333333333,5,3.0086206896551726
+695,20,0,Undergraduate,Turkey,6.6,1,6.1,5,0,4,8,False,True,False,False,False,False,False,False,False,False,False,False,2,2.785714285714285,0,1.4913793103448274
+696,23,1,Graduate,USA,5.5,1,6.7,6,1,3,7,False,False,False,False,False,False,False,True,False,False,False,False,3,2.428571428571428,0,2.2500000000000004
+697,21,0,Undergraduate,Mexico,6.3,1,6.2,5,0,4,8,False,False,False,False,False,False,True,False,False,False,False,False,2,2.714285714285714,0,1.53448275862069
+698,24,1,Graduate,France,4.8,0,7.1,7,1,2,5,True,False,False,False,False,False,False,False,False,False,False,False,5,2.4047619047619047,5,2.9224137931034484
+699,19,0,Undergraduate,Canada,5.7,1,6.6,6,0,3,7,False,True,False,False,False,False,False,False,False,False,False,False,3,2.4761904761904763,0,2.206896551724138
+700,22,1,Graduate,UK,6.2,1,6.3,5,0,4,8,False,False,False,False,False,False,False,True,False,False,False,False,2,2.6904761904761902,0,1.5775862068965518
+701,20,0,Undergraduate,Italy,4.7,0,7.2,7,1,2,5,False,False,False,False,False,False,True,False,False,False,False,False,5,2.380952380952381,5,2.9655172413793105
+702,23,1,Graduate,Russia,6.8,1,5.9,4,0,5,9,False,True,False,False,False,False,False,False,False,False,False,False,1,2.928571428571429,0,0.9051724137931038
+703,21,0,Undergraduate,China,5.6,1,6.7,6,1,3,7,False,False,False,False,False,False,False,False,False,True,False,False,3,2.4523809523809517,0,2.2500000000000004
+704,24,1,Graduate,Japan,4.3,0,7.5,8,0,2,4,False,False,False,False,False,False,False,True,False,False,False,False,6,2.5238095238095237,5,3.594827586206897
+705,19,0,Undergraduate,Poland,6.2,1,6.3,5,0,4,8,True,False,False,False,False,False,False,False,False,False,False,False,2,2.6904761904761902,0,1.5775862068965518

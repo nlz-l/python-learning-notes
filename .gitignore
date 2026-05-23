@@ -42,6 +42,7 @@ wheels/
 Thumbs.db
 
 # 不上传到 GitHub
+test
 求职Agent/
 练习/
 *.pkl
