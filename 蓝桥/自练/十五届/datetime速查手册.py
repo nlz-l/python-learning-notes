@@ -41,7 +41,7 @@ print(t3)   # 2024-01-16 00:00:00
 # 【四、字符串 ↔ 时间互转（最常用！）】
 # ============================================
 
-# 4.1.机器学习概述 字符串 → datetime（解析）strptime = string parse time
+# 4.1 字符串 → datetime（解析）strptime = string parse time
 s = "2016-09-07 18:24:33"
 t = datetime.strptime(s, '%Y-%m-%d %H:%M:%S')
 print(t)    # 2016-09-07 18:24:33
@@ -129,7 +129,7 @@ days = delta.days                           # 天数部分
 t = datetime(2024, 1, 15, 14, 30, 25)
 
 print(t.year)     # 2024   年
-print(t.month)    # 1.机器学习概述      月
+print(t.month)    # 1      月
 print(t.day)      # 15     日
 print(t.hour)     # 14     时
 print(t.minute)   # 30     分
@@ -207,10 +207,10 @@ prev_day = t - timedelta(days=1)    # 2024-01-30
 
 """
 ❌ 错误1：strptime 格式不匹配
-  datetime.strptime("2024-1.机器学习概述-5", "%Y-%m-%d")
-  → 输入是 1.机器学习概述 和 5（一位），格式要求 %m %d（两位）
+  datetime.strptime("2024-1-5", "%Y-%m-%d")
+  → 输入是 1 和 5（一位），格式要求 %m %d（两位）
   ✅ 改成：datetime.strptime("2024-01-05", "%Y-%m-%d")
-     或：datetime.strptime("2024-1.机器学习概述-5", "%Y-%-m-%-d")
+     或：datetime.strptime("2024-1-5", "%Y-%-m-%-d")
 
 ❌ 错误2：timedelta 参数拼写错误
   timedelta(day=3)        ❌ 应该是 days（复数）
@@ -244,7 +244,7 @@ prev_day = t - timedelta(days=1)    # 2024-01-30
 │   "2024-01-15 14:30:00"                                  │
 │        ↓ strptime()                                      │
 │   ┌─────────────────┐                                   │
-│   │  datetime 对象   │ ← datetime(2024,1.机器学习概述,15,14,30,0)    │
+│   │  datetime 对象   │ ← datetime(2024,1,15,14,30,0)    │
 │   └────────┬────────┘                                   │
 │            │                                            │
 │     ┌──────┴──────┐                                     │

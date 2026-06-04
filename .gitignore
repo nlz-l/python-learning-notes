@@ -50,6 +50,7 @@ test
 4.DeepLearning/*/data/
 4.DeepLearning/*/model/
 CLAUDE.md
+AGENTS.md
 *.mp3
 NLP_BASIC_HTML
 nlpbase
