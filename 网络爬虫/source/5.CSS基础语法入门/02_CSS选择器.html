@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #abc{  /*id 选择器 */
+            color: pink;
+        }
+        li{   /*标签 选择器 */
+            border: 1px solid red;
+        }
+        .jay{ /*类 选择器 */
+            color: green;
+        }
+        div,span{ /*分组 选择器 */
+            background: hotpink;
+        }
+        ul li{  /* 空格 表示子子孙孙,所有后代  */
+            list-style: none;
+        }
+        ul > li{  /* > 后代一层  */
+            list-style: none;
+        }
+        h1 + h2{ /* > 相邻选择器  */
+            color: red;
+        }
+        a[target]{
+            color: green;
+        }
+        a[target="_blank"]{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!--
+    <ul>
+    <li>周杰伦</li>
+    <li id="abc">林俊杰</li>
+    <li>周星驰</li>
+    <li>
+        <ol>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ol>
+    </li>
+    </ul>
+    <ol>
+        <li>手电筒</li>
+        <li>电视机</li>
+        <li>黑板擦</li>
+    </ol>
+    <div class="jay">呵呵哒</div>
+    <span class="jay">呵呵哒</span>
+    -->
+    <!--
+    <h1>马化腾</h1>
+    <h2>马云</h2>
+    <h2>马云+1</h2>
+    -->
+    <a href="#" target="_blank">我是blank</a>
+    <a href="#" target="_self">我是self</a>
+    <a href="#">我是啥也没有</a>
+</body>
+</html>

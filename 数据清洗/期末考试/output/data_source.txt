@@ -1,0 +1,5 @@
+主题: 中国新能源汽车与汽车产量数据清洗
+新能源汽车年度销量 API: https://chinadata.live/api/v2/data/china-nev-sales
+汽车月度产量 API: https://chinadata.live/api/v2/data/china-car-production-monthly
+中国与全球电动汽车销量对比 API: https://chinadata.live/api/v2/data/ev-sales-china-vs-world
+主要数据来源: 中国汽车工业协会、国家统计局、IEA/EV-Volumes 等公开统计口径
