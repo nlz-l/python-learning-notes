@@ -1,77 +1,221 @@
 # Python 学习笔记
 
-本项目整理了 Python 课程学习、数据分析、机器学习、深度学习、NLP、网络爬虫、蓝桥杯练习以及个人项目实验。内容覆盖基础语法到综合实践，适合作为阶段性学习资料库。
+![Python](https://img.shields.io/badge/python-3.10+-blue)
+![NumPy](https://img.shields.io/badge/NumPy-1.x-013243)
+![Pandas](https://img.shields.io/badge/Pandas-2.x-150458)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C)
+![Scikit--learn](https://img.shields.io/badge/scikit--learn-1.x-F7931E)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+
+系统化的 Python 数据科学全栈学习仓库，涵盖 Python 基础、数据分析、机器学习、深度学习、NLP、网络爬虫、蓝桥杯竞赛和 AI Agent 应用。
+
+**作者**：刘文博 | **学校**：湖北文理学院 · 信息与计算科学 · 2023 级
 
 ## 目录结构
 
 ```text
-1.pythonBasicsAndDataStructures/  Python 基础与数据结构
-2.Data_Analysis/                  NumPy、Pandas、Jupyter 等数据分析练习
-3.MachineLearning/                机器学习算法、案例和实验项目
-4.DeepLearning/                   深度学习相关练习
-5.NLP/                            自然语言处理相关练习
-网络爬虫/                         requests、HTML、JSON、网页数据采集
-蓝桥/                             蓝桥杯省赛题解和个人练习
-数据清洗/                         数据清洗专题练习
-机器学习(作业)/                   机器学习课程作业
-求职Agent/                        Agent 应用实验
-网页展示/                         个人网页或 HTML 展示页面
-test/                             临时测试代码
+python-learning-notes/
+├── 1.pythonBasicsAndDataStructures/   # Python 基础与数据结构
+│   ├── 1-面向对象/                     # OOP 核心概念
+│   ├── 2-面向对象高级/                 # 高级 OOP 特性
+│   ├── 3-闭包和装饰器/                 # 函数式编程
+│   ├── 4-网编和多线程/                 # socket、threading
+│   ├── 5-生成器与正则表达式/           # yield、re 模块
+│   └── 6-数据结构与算法初步/           # 链表、树、排序、查找
+├── 2.Data_Analysis/                   # 数据分析（Jupyter Notebook）
+│   ├── NumPy/                          # 数组运算
+│   ├── Pandas/                         # 数据读写、CRUD、高级语法
+│   ├── Matplotlib/                     # 基础绑图
+│   ├── Seaborn/                        # 统计图表
+│   ├── 链家数据集练习/                 # 实战案例
+│   └── RFM案例/                        # 客户价值分析
+├── 3.MachineLearning/                  # 机器学习
+│   ├── 1-概述/                         # ML 基础概念
+│   ├── 2-KNN算法/                      # K 近邻
+│   ├── 3-线性回归/                     # Linear Regression
+│   ├── 4-逻辑回归/                     # Logistic Regression
+│   ├── 5-决策树/                       # Decision Tree
+│   ├── 6-集成学习/                     # Bagging、Boosting
+│   ├── 7-KMeans/                       # 聚类
+│   └── 8-电力负荷预测/                 # 综合案例
+├── 4.DeepLearning/                     # 深度学习
+│   ├── 1-PyTorch框架/                  # 张量、自动求导
+│   ├── 2-ANN/                          # 人工神经网络
+│   ├── 3-CNN/                          # 卷积神经网络
+│   └── 4-RNN/                          # 循环神经网络
+├── 5.NLP/                              # 自然语言处理
+│   ├── text_preprocessing/             # 文本预处理
+│   ├── RNN_variants/                   # RNN 变体
+│   ├── Transformer/                    # Transformer 架构
+│   ├── transferLearning/               # 迁移学习
+│   └── NLP精选问题/                    # 专题讨论
+├── 网络爬虫/                           # Web Scraping
+│   ├── 实验二 ~ 实验六/               # 爬虫实验作业
+│   ├── 报告作业/                       # 实验报告
+│   ├── 期中/                           # 期中作业
+│   └── source/                         # 数据源
+├── 机器学习(作业)/                     # ML 课程作业
+│   └── 实验五 ~ 实验十三/
+├── 蓝桥/                               # 蓝桥杯竞赛
+│   ├── 答案/                           # 第 4-12 届官方题解
+│   └── 自练/                           # 第 11/12/15/16 届练习
+├── 数据清洗/                           # 数据清洗专题
+├── 求职Agent/                          # AI 求职助手应用
+├── 网页展示/                           # 个人展示页面
+├── test/                               # 测试脚本
+├── CLAUDE.md                           # Claude Code 配置
+└── README.md
 ```
 
-## 模块说明
+## 环境配置
 
-### Python 基础与数据结构
+项目使用三个 conda 虚拟环境，按需激活：
 
-包含面向对象、闭包、装饰器、网络编程、多线程、生成器、正则表达式、链表、二叉树、排序和查找等内容。适合按学习顺序逐个主题复习。
+| 环境名 | 用途 | Python 路径 |
+|---|---|---|
+| `env` | 通用（数据分析、机器学习、爬虫） | `C:/Users/nlz/.conda/envs/env/python.exe` |
+| `nlpbase` | NLP（CPU） | `C:/Users/nlz/.conda/envs/nlpbase/python.exe` |
+| `nlpbase2` | NLP（GPU） | `C:/Users/nlz/.conda/envs/nlpbase2/python.exe` |
 
-### 数据分析
+```bash
+# 激活环境
+conda activate env         # 通用任务
+conda activate nlpbase     # NLP CPU
+conda activate nlpbase2    # NLP GPU（需要 CUDA）
 
-主要使用 Jupyter Notebook 练习 NumPy、Pandas、CSV/JSON 读写、数据清洗、统计汇总和基础可视化。适合配合真实数据集完成探索式分析。
+# 安装依赖
+pip install -r requirements.txt
+```
 
-### 机器学习
+### 常用依赖
 
-包含算法实验和案例项目，例如集成学习对比、电力负荷预测等。部分项目会保存数据、模型、日志和工具函数，适合练习完整的建模流程。
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn \
+            xgboost lightgbm jupyter requests beautifulsoup4 \
+            openpyxl torch torchvision
+```
+
+## 模块详解
+
+### 1. Python 基础与数据结构
+
+6 个递进式学习模块，含 Python 二级考试内容：
+
+| 模块 | 内容 | 产出 |
+|---|---|---|
+| 面向对象 | 类、对象、继承、多态 | `.py` 练习 + `.md` 笔记 |
+| 面向对象高级 | `__slots__`、描述符、元类 | `.py` 练习 |
+| 闭包和装饰器 | 高阶函数、`@decorator` | `.py` 练习 |
+| 网编和多线程 | socket、threading、queue | `.py` 练习 |
+| 生成器与正则 | yield、re、迭代器 | `.py` 练习 |
+| 数据结构与算法 | 链表、二叉树、排序、查找 | `.py` 练习 |
+
+### 2. 数据分析
+
+Jupyter Notebook 交互式学习，涵盖：
+- **NumPy**：ndarray 操作、广播、线性代数
+- **Pandas**：DataFrame、数据读写（CSV/JSON/Excel）、CRUD、高级语法
+- **Matplotlib / Seaborn**：基础图表与统计可视化
+- **实战案例**：链家房源数据集探索、RFM 客户价值分析
+
+### 3. 机器学习
+
+9 个模块，从算法原理到综合案例：
+
+```text
+概述 → KNN → 线性回归 → 逻辑回归 → 决策树 → 集成学习 → KMeans → 电力负荷预测
+```
+
+每个模块包含算法实现、scikit-learn 调用和模型评估。
+
+### 4. 深度学习
+
+基于 PyTorch 框架：
+- 张量运算与自动求导
+- ANN / CNN / RNN 网络构建
+- `data/` 和 `model/` 目录已加入 `.gitignore`
+
+### 5. NLP
+
+文本处理全流程：
+- 分词、去停用词、词向量
+- RNN / LSTM / GRU 序列模型
+- Transformer / BERT 迁移学习
+- NLP 精选问题讨论
 
 ### 网络爬虫
 
-包含 requests 请求、JSON 接口解析、HTML 页面解析、Excel 保存等练习，适合学习从网页采集结构化数据的基本流程。
+从入门到实战的爬虫实验：
+- **实验二**：Requests 基础请求
+- **实验三**：JSON 接口解析
+- **实验四**：HTML 页面解析
+- **实验六**：Selenium 动态渲染
 
 ### 蓝桥杯
 
-收录蓝桥杯省赛官方题解和个人练习题，重点训练枚举、递归、动态规划、日期处理、字符串、图形输出和常见算法模板。
+- **答案/**：第 4-12 届省赛官方题解（Python）
+- **自练/**：第 11、12、15、16 届个人刷题记录
+- 涵盖枚举、递归、DP、日期处理、字符串、图论
 
-## 推荐环境
+### 求职 Agent
 
-- Python 3.10 或更高版本
-- Jupyter Notebook / JupyterLab
-- 常用依赖：
+AI 驱动的求职助手应用：
+- 简历解析与优化
+- 职位爬取与匹配
+- 自动投递与追踪
 
-```bash
-pip install numpy pandas matplotlib seaborn scikit-learn xgboost lightgbm jupyter requests beautifulsoup4 openpyxl
+> 此目录未上传 GitHub（`.gitignore` 排除）
+
+## 学习路线
+
+```text
+第一阶段          第二阶段          第三阶段          第四阶段
+ Python 基础  ──→ 数据分析 ──→ 机器学习 ──→ 深度学习
+                                │
+                                ├──→ NLP
+                                ├──→ 爬虫专项
+                                └──→ 蓝桥杯算法
 ```
 
-不同子目录的依赖可能不同，运行前请根据具体脚本补充安装。
+1. **打基础**：完成 `1.pythonBasicsAndDataStructures/` 全部模块
+2. **学分析**：通过 `2.Data_Analysis/` 掌握 NumPy、Pandas、可视化
+3. **上模型**：依次学习 `3.MachineLearning/` 中的算法
+4. **深钻研**：选择 DL/NLP/爬虫/竞赛方向深入
 
 ## 运行方式
 
-启动 Notebook：
+### Jupyter Notebook
 
 ```bash
 jupyter notebook
+# 在浏览器中打开对应 .ipynb 文件
 ```
 
-运行普通 Python 脚本：
+### Python 脚本
 
 ```bash
-python 文件名.py
+# 先 cd 到脚本所在目录（部分脚本使用相对路径读取数据）
+cd 3.MachineLearning/5-决策树/
+python script.py
 ```
 
-如果脚本依赖数据文件，建议先进入脚本所在目录，再执行命令，避免相对路径找不到数据。
+### 蓝桥杯题解
 
-## 学习建议
+```bash
+python 蓝桥/自练/15届/solution.py
+```
 
-1. 先完成 Python 基础与数据结构，打牢语法和算法基础。
-2. 再学习数据分析，掌握 Notebook、NumPy 和 Pandas。
-3. 之后进入机器学习和深度学习项目，练习从数据到模型评估的完整流程。
-4. 网络爬虫和蓝桥杯可以作为专项训练，用来提高工程实践和算法熟练度。
+## Git 忽略说明
+
+| 忽略内容 | 原因 |
+|---|---|
+| `4.DeepLearning/*/data/`、`4.DeepLearning/*/model/` | 模型/数据文件过大 |
+| `手写数字识别.csv`、`*.pkl` | 数据集和序列化文件 |
+| `求职Agent/` | 个人项目，不公开 |
+| `.ipynb_checkpoints/` | Jupyter 自动生成 |
+
+## 相关链接
+
+- R 语言学习：[R](../R/)
+- Python 课程作业：[python课上作业](../python课上作业/)
+- 求职 Agent 项目：[求职Agent/](求职Agent/)

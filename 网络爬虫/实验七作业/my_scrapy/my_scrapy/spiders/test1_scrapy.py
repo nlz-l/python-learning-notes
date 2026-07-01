@@ -28,9 +28,7 @@ class Test1ScrapySpider(scrapy.Spider):
         url = self.build_url()
         yield scrapy.Request(url, callback=self.parse)
 
-    def start_requests(self):
-        url = self.build_url()
-        yield scrapy.Request(url, callback=self.parse)
+
 
     def parse(self, response):
         data = json.loads(response.text)

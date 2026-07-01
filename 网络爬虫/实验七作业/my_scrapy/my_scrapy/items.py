@@ -20,4 +20,20 @@ class PodcastItem(scrapy.Item):
     copyright = scrapy.Field()
 
 
-items.py
+class StudentInternetUsageItem(scrapy.Item):
+    student = scrapy.Field()
+    week = scrapy.Field()
+    whatsapp = scrapy.Field()
+    instagram = scrapy.Field()
+    snapchat = scrapy.Field()
+    telegram = scrapy.Field()
+    facebook = scrapy.Field()
+    bereal = scrapy.Field()
+    tiktok = scrapy.Field()
+    wechat = scrapy.Field()
+    twitter = scrapy.Field()
+    linkedin = scrapy.Field()
+    messages = scrapy.Field()
+    total_screen_time = scrapy.Field()
+    hourly_open_count = scrapy.Field()
+addiction_status = scrapy.Field()

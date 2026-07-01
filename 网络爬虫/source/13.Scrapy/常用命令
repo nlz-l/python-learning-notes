@@ -1,0 +1,21 @@
+scrapy startproject 项目名
+scrapy genspider 爬虫名 域名
+scrapy crawl 爬虫名
+scrapy crawl 爬虫名 -o 文件名.csv
+
+
+
+使用selenium时,
+def __init__(self):
+    self.browser = create_enge_driver(headless=True)
+    self.browser.get('https://www.taobao.com')
+    add_cookies(self.browser,'taobao2.json')
+
+def __del__(self):
+    self.browser.close()
+
+在函数:
+process_request(self,request,scrapy.Request,spider):里写:
+    self.browser.get(request.url)
+    return HtmlResponse(url=request.url, body=self.browser.page.source,
+    request=request,encoding='utf-8')
